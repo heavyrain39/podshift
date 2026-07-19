@@ -1,0 +1,24 @@
+AFTERTRACE PROPRIETARY LICENSE
+
+Copyright (c) 2026 YACHAWAN. All rights reserved.
+
+Permission is granted to access and play an officially published build of
+AFTERTRACE for personal, non-commercial use.
+
+No permission is granted to copy, reproduce, modify, adapt, translate,
+reverse engineer, redistribute, sublicense, sell, host, or create derivative
+works from the source code, compiled code, game design, visual assets, 3D
+models, audio, music, documentation, or other original materials in this
+project, in whole or in part, without prior written permission from the
+copyright holder.
+
+Public availability of a repository or published build does not place any
+part of AFTERTRACE in the public domain and does not make it open source.
+
+Third-party software and font components remain subject to their respective
+licenses. Those licenses apply only to the corresponding third-party
+components and do not grant rights to AFTERTRACE's original materials.
+
+THE SOFTWARE AND GAME ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
