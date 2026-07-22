@@ -12666,18 +12666,18 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$9 = [
+const __iconNode$f = [
   ["path", { d: "M5 12h14", key: "1ays0h" }],
   ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
 ];
-const ArrowRight = createLucideIcon("arrow-right", __iconNode$9);
+const ArrowRight = createLucideIcon("arrow-right", __iconNode$f);
 /**
  * @license lucide-react v0.575.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$8 = [
+const __iconNode$e = [
   ["circle", { cx: "11", cy: "13", r: "9", key: "hd149" }],
   [
     "path",
@@ -12688,7 +12688,91 @@ const __iconNode$8 = [
   ],
   ["path", { d: "m22 2-1.5 1.5", key: "ay92ug" }]
 ];
-const Bomb = createLucideIcon("bomb", __iconNode$8);
+const Bomb = createLucideIcon("bomb", __iconNode$e);
+/**
+ * @license lucide-react v0.575.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$d = [
+  ["path", { d: "M10 12h4", key: "a56b0p" }],
+  ["path", { d: "M10 8h4", key: "1sr2af" }],
+  ["path", { d: "M14 21v-3a2 2 0 0 0-4 0v3", key: "1rgiei" }],
+  [
+    "path",
+    {
+      d: "M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2",
+      key: "secmi2"
+    }
+  ],
+  ["path", { d: "M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16", key: "16ra0t" }]
+];
+const Building2 = createLucideIcon("building-2", __iconNode$d);
+/**
+ * @license lucide-react v0.575.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$c = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
+const Check = createLucideIcon("check", __iconNode$c);
+/**
+ * @license lucide-react v0.575.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$b = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["line", { x1: "22", x2: "18", y1: "12", y2: "12", key: "l9bcsi" }],
+  ["line", { x1: "6", x2: "2", y1: "12", y2: "12", key: "13hhkx" }],
+  ["line", { x1: "12", x2: "12", y1: "6", y2: "2", key: "10w3f3" }],
+  ["line", { x1: "12", x2: "12", y1: "22", y2: "18", key: "15g9kq" }]
+];
+const Crosshair = createLucideIcon("crosshair", __iconNode$b);
+/**
+ * @license lucide-react v0.575.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$a = [
+  ["path", { d: "M12 16h.01", key: "1drbdi" }],
+  ["path", { d: "M16 16h.01", key: "1f9h7w" }],
+  [
+    "path",
+    {
+      d: "M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z",
+      key: "1iv0i2"
+    }
+  ],
+  ["path", { d: "M8 16h.01", key: "18s6g9" }]
+];
+const Factory = createLucideIcon("factory", __iconNode$a);
+/**
+ * @license lucide-react v0.575.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$9 = [
+  ["rect", { width: "18", height: "11", x: "3", y: "11", rx: "2", ry: "2", key: "1w4ew1" }],
+  ["path", { d: "M7 11V7a5 5 0 0 1 10 0v4", key: "fwvmzm" }]
+];
+const Lock = createLucideIcon("lock", __iconNode$9);
+/**
+ * @license lucide-react v0.575.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$8 = [
+  ["path", { d: "M9 18V5l12-2v13", key: "1jmyc2" }],
+  ["circle", { cx: "6", cy: "18", r: "3", key: "fqmcym" }],
+  ["circle", { cx: "18", cy: "16", r: "3", key: "1hluhg" }]
+];
+const Music = createLucideIcon("music", __iconNode$8);
 /**
  * @license lucide-react v0.575.0 - ISC
  *
@@ -12696,18 +12780,6 @@ const Bomb = createLucideIcon("bomb", __iconNode$8);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$7 = [
-  ["path", { d: "M9 18V5l12-2v13", key: "1jmyc2" }],
-  ["circle", { cx: "6", cy: "18", r: "3", key: "fqmcym" }],
-  ["circle", { cx: "18", cy: "16", r: "3", key: "1hluhg" }]
-];
-const Music = createLucideIcon("music", __iconNode$7);
-/**
- * @license lucide-react v0.575.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$6 = [
   ["path", { d: "M2 22h20", key: "272qi7" }],
   [
     "path",
@@ -12717,7 +12789,19 @@ const __iconNode$6 = [
     }
   ]
 ];
-const PlaneTakeoff = createLucideIcon("plane-takeoff", __iconNode$6);
+const PlaneTakeoff = createLucideIcon("plane-takeoff", __iconNode$7);
+/**
+ * @license lucide-react v0.575.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$6 = [
+  ["circle", { cx: "6", cy: "19", r: "3", key: "1kj8tv" }],
+  ["path", { d: "M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15", key: "1d8sl" }],
+  ["circle", { cx: "18", cy: "5", r: "3", key: "gq8acd" }]
+];
+const Route = createLucideIcon("route", __iconNode$6);
 /**
  * @license lucide-react v0.575.0 - ISC
  *
@@ -12725,11 +12809,16 @@ const PlaneTakeoff = createLucideIcon("plane-takeoff", __iconNode$6);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$5 = [
-  ["circle", { cx: "6", cy: "19", r: "3", key: "1kj8tv" }],
-  ["path", { d: "M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15", key: "1d8sl" }],
-  ["circle", { cx: "18", cy: "5", r: "3", key: "gq8acd" }]
+  [
+    "path",
+    {
+      d: "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
+      key: "oel41y"
+    }
+  ],
+  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
 ];
-const Route = createLucideIcon("route", __iconNode$5);
+const ShieldCheck = createLucideIcon("shield-check", __iconNode$5);
 /**
  * @license lucide-react v0.575.0 - ISC
  *
@@ -12740,13 +12829,12 @@ const __iconNode$4 = [
   [
     "path",
     {
-      d: "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
-      key: "oel41y"
+      d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
+      key: "r04s7s"
     }
-  ],
-  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
+  ]
 ];
-const ShieldCheck = createLucideIcon("shield-check", __iconNode$4);
+const Star = createLucideIcon("star", __iconNode$4);
 /**
  * @license lucide-react v0.575.0 - ISC
  *
@@ -12754,15 +12842,13 @@ const ShieldCheck = createLucideIcon("shield-check", __iconNode$4);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$3 = [
-  [
-    "path",
-    {
-      d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
-      key: "r04s7s"
-    }
-  ]
+  ["path", { d: "M10 11v6", key: "nco0om" }],
+  ["path", { d: "M14 11v6", key: "outv1u" }],
+  ["path", { d: "M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6", key: "miytrc" }],
+  ["path", { d: "M3 6h18", key: "d0wm0j" }],
+  ["path", { d: "M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2", key: "e791ji" }]
 ];
-const Star = createLucideIcon("star", __iconNode$3);
+const Trash2 = createLucideIcon("trash-2", __iconNode$3);
 /**
  * @license lucide-react v0.575.0 - ISC
  *
@@ -12770,13 +12856,14 @@ const Star = createLucideIcon("star", __iconNode$3);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$2 = [
-  ["path", { d: "M10 11v6", key: "nco0om" }],
-  ["path", { d: "M14 11v6", key: "outv1u" }],
-  ["path", { d: "M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6", key: "miytrc" }],
-  ["path", { d: "M3 6h18", key: "d0wm0j" }],
-  ["path", { d: "M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2", key: "e791ji" }]
+  ["path", { d: "M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978", key: "1n3hpd" }],
+  ["path", { d: "M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978", key: "rfe1zi" }],
+  ["path", { d: "M18 9h1.5a1 1 0 0 0 0-5H18", key: "7xy6bh" }],
+  ["path", { d: "M4 22h16", key: "57wxv0" }],
+  ["path", { d: "M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z", key: "1mhfuq" }],
+  ["path", { d: "M6 9H4.5a1 1 0 0 1 0-5H6", key: "tex48p" }]
 ];
-const Trash2 = createLucideIcon("trash-2", __iconNode$2);
+const Trophy = createLucideIcon("trophy", __iconNode$2);
 /**
  * @license lucide-react v0.575.0 - ISC
  *
@@ -12964,6 +13051,130 @@ function calculateStageStars(score, hp, maxHp, target) {
   if (score >= Math.round(target * 0.45)) return 2;
   return 1;
 }
+const BADGES = [
+  { id: "first-trace", title: "FIRST TRACE", detail: "CLEAR 1 STAGE", icon: Trophy, achieved: ({ clearedStages }) => clearedStages >= 1 },
+  { id: "city-escape", title: "CITY ESCAPE", detail: "CLEAR STAGE 10", icon: Building2, achieved: ({ cityCleared }) => cityCleared },
+  { id: "factory-breach", title: "FACTORY BREACH", detail: "CLEAR STAGE 20", icon: Factory, achieved: ({ factoryCleared }) => factoryCleared },
+  { id: "perfect-run", title: "PERFECT RUN", detail: "EARN 3 STARS", icon: ShieldCheck, achieved: ({ hasThreeStarClear }) => hasThreeStarClear },
+  { id: "star-cache-1", title: "STAR CACHE I", detail: "EARN 10 STARS", icon: Star, achieved: ({ totalStars }) => totalStars >= 10 },
+  { id: "star-cache-2", title: "STAR CACHE II", detail: "EARN 30 STARS", icon: Star, achieved: ({ totalStars }) => totalStars >= 30 },
+  { id: "star-cache-3", title: "STAR CACHE III", detail: "EARN 60 STARS", icon: Star, achieved: ({ totalStars }) => totalStars >= 60 },
+  { id: "full-constellation", title: "FULL CONSTELLATION", detail: "EARN 150 STARS", icon: Star, achieved: ({ totalStars }) => totalStars >= 150 },
+  { id: "no-impact", title: "NO IMPACT", detail: "TRACKING PLANNED", icon: ShieldCheck, achieved: () => false },
+  { id: "wrecker", title: "WRECKER", detail: "TRACKING PLANNED", icon: Crosshair, achieved: () => false }
+];
+const PANEL_BUTTON_CLASS = "menu-button group relative w-full px-4 py-3 text-center font-mono text-[11px] font-black tracking-[0.18em] transition duration-100 hover:text-[#f7f3ec]";
+function VehicleGlyph({ locked = false }) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: `relative h-14 w-20 ${locked ? "opacity-28" : ""}`, "aria-hidden": "true", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute left-1 top-1 h-12 w-4 skew-y-[-5deg] border border-current bg-current/10" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute right-1 top-1 h-12 w-4 skew-y-[5deg] border border-current bg-current/10" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute left-1/2 top-4 h-7 w-7 -translate-x-1/2 border border-current bg-current/8 [clip-path:polygon(50%_0,100%_35%,82%_100%,18%_100%,0_35%)]" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute left-5 right-5 top-5 h-px bg-current" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute left-5 right-5 bottom-3 h-px bg-current" })
+  ] });
+}
+function CollectionPanel({ profile, onBack }) {
+  const totalStars = profile.stars.reduce((total, stars) => total + stars, 0);
+  const stats = {
+    totalStars,
+    clearedStages: profile.stars.filter((stars) => stars > 0).length,
+    hasThreeStarClear: profile.stars.some((stars) => stars === 3),
+    cityCleared: (profile.stars[9] ?? 0) > 0,
+    factoryCleared: (profile.stars[19] ?? 0) > 0
+  };
+  const earnedBadges = BADGES.filter((badge) => badge.achieved(stats)).length;
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "menu-panel max-h-[min(78dvh,700px)] w-full overflow-y-auto border border-[#25282d] bg-[#f7f3ed]/97 p-4 shadow-[6px_6px_0_#25282d] animate-fade-in sm:p-5", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-4 flex items-end justify-between gap-4 border-b border-[#25282d]/25 pb-3", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-mono text-[8px] font-black tracking-[0.22em] text-[#0a9db1]", children: "PLAYER ARCHIVE" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "mt-1 text-[18px] font-black italic tracking-[0.12em]", children: "COLLECTION" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-3 gap-3 text-right font-mono text-[7px] font-black tracking-[0.12em] text-[#25282d]/58", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
+          "STAGES",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("b", { className: "text-[12px] text-[#25282d]", children: [
+            stats.clearedStages,
+            "/50"
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
+          "STARS",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("b", { className: "text-[12px] text-[#25282d]", children: [
+            totalStars,
+            "/150"
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
+          "BADGES",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("b", { className: "text-[12px] text-[#25282d]", children: [
+            earnedBadges,
+            "/",
+            BADGES.length
+          ] })
+        ] })
+      ] })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { "aria-labelledby": "collection-vehicles-title", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-2 flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { id: "collection-vehicles-title", className: "font-mono text-[9px] font-black tracking-[0.2em]", children: "VEHICLES" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-mono text-[7px] font-bold tracking-[0.12em] text-[#25282d]/45", children: "SELECTED FRAME" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-3 gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("article", { className: "relative flex min-h-32 flex-col items-center justify-between border-2 border-[#0a9db1] bg-[#20cfe1]/10 p-2 text-center", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute right-1.5 top-1.5 flex h-4 w-4 items-center justify-center bg-[#20cfe1] text-[#25282d]", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Check, { size: 11, strokeWidth: 3 }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(VehicleGlyph, {}),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[11px] font-black leading-tight", children: "AT-01" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-mono text-[6.5px] font-black tracking-[0.08em] text-[#25282d]/58", children: "TWINBURN" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-2 w-full bg-[#20cfe1] px-1 py-1 font-mono text-[7px] font-black tracking-[0.14em]", children: "ACTIVE" })
+        ] }),
+        [{ id: "AT-02", stars: 30 }, { id: "AT-03", stars: 100 }].map((vehicle) => {
+          const accessEarned = totalStars >= vehicle.stars;
+          return /* @__PURE__ */ jsxRuntimeExports.jsxs("article", { className: "flex min-h-32 flex-col items-center justify-between border border-dashed border-[#25282d]/38 bg-[#25282d]/4 p-2 text-center text-[#25282d]/62", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(VehicleGlyph, { locked: true }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[11px] font-black leading-tight", children: vehicle.id }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-mono text-[6.5px] font-black tracking-[0.08em]", children: "FRAME PENDING" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-2 flex w-full items-center justify-center gap-1 border border-[#25282d]/22 px-1 py-1 font-mono text-[7px] font-black tracking-[0.1em]", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Lock, { size: 8, strokeWidth: 2.5 }),
+              " ",
+              accessEarned ? "ACCESS EARNED" : `${vehicle.stars} STARS`
+            ] })
+          ] }, vehicle.id);
+        })
+      ] })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "mt-5", "aria-labelledby": "collection-badges-title", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-2 flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { id: "collection-badges-title", className: "font-mono text-[9px] font-black tracking-[0.2em]", children: "BADGE GRID" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-mono text-[7px] font-bold tracking-[0.12em] text-[#25282d]/45", children: "PROTOTYPE 10 SLOTS" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-5 gap-1.5 sm:gap-2", children: BADGES.map((badge) => {
+        const achieved = badge.achieved(stats);
+        const Icon2 = badge.icon;
+        return /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "article",
+          {
+            className: `aspect-[0.82] min-w-0 border p-1.5 text-center ${achieved ? "border-[#25282d] bg-[#25282d] text-[#f7f3ed]" : "border-dashed border-[#25282d]/28 bg-[#25282d]/3 text-[#25282d]/32"}`,
+            "aria-label": `${badge.title}: ${achieved ? "earned" : "locked"}, ${badge.detail}`,
+            children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex h-full flex-col items-center justify-center gap-1", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Icon2, { size: 18, strokeWidth: achieved ? 2.4 : 1.5 }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full truncate font-mono text-[5.5px] font-black tracking-[0.06em] sm:text-[6px]", children: badge.title }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `hidden font-mono text-[5px] font-bold leading-tight sm:block ${achieved ? "text-[#f7f3ed]/55" : "text-[#25282d]/32"}`, children: badge.detail })
+            ] })
+          },
+          badge.id
+        );
+      }) })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: `${PANEL_BUTTON_CLASS} mt-4`, onClick: onBack, children: "BACK TO MENU" })
+  ] });
+}
 const BUTTON_CLASS = "menu-button group relative w-full px-4 py-3 text-center font-mono text-[12px] font-black tracking-[0.18em] transition duration-100 hover:text-[#f7f3ec]";
 function MainMenu({ savedRun, profile, preview, settings, onContinue, onStart, onRouteMap, onResetProgress, onSettingsChange }) {
   const [view, setView] = reactExports.useState("main");
@@ -12987,7 +13198,7 @@ function MainMenu({ savedRun, profile, preview, settings, onContinue, onStart, o
       /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "w-full whitespace-nowrap text-center text-[clamp(44px,12vw,80px)] font-black italic leading-[0.9] tracking-[-0.035em]", children: "AFTERTRACE" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 font-mono text-[9px] font-bold tracking-[0.22em] text-[#25282d]/58", children: "A / D · TAP OR HOLD LEFT / RIGHT" })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "main-menu-actions pointer-events-auto relative mt-auto mb-8 w-full max-w-[540px] self-center", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: `main-menu-actions pointer-events-auto relative mt-auto mb-8 w-full self-center ${view === "collection" ? "max-w-[680px]" : "max-w-[540px]"}`, children: [
       view === "main" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-2", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "button",
@@ -13008,7 +13219,7 @@ function MainMenu({ savedRun, profile, preview, settings, onContinue, onStart, o
         /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: BUTTON_CLASS, onClick: onRouteMap, children: "ROUTE MAP" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-2 gap-2", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: BUTTON_CLASS, onClick: () => setView("settings"), children: "SETTINGS" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: BUTTON_CLASS, onClick: () => setView("credits"), children: "CREDITS" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: BUTTON_CLASS, onClick: () => setView("collection"), children: "COLLECTION" })
         ] })
       ] }),
       view === "settings" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "menu-panel border border-[#25282d] bg-[#f7f3ed]/95 p-5 shadow-[6px_6px_0_#25282d] max-w-[360px] mx-auto w-full animate-fade-in", children: [
@@ -13025,14 +13236,7 @@ function MainMenu({ savedRun, profile, preview, settings, onContinue, onStart, o
           ] }) })
         ] })
       ] }),
-      view === "credits" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "menu-panel border border-[#25282d] bg-[#f7f3ed]/95 p-5 shadow-[6px_6px_0_#25282d] max-w-[360px] mx-auto w-full animate-fade-in", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mb-4 border-b border-[#25282d]/25 pb-2", children: /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-[14px] font-black tracking-[0.18em]", children: "CREDITS" }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-5 py-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(CreditLine, { role: "CREATED BY", name: "YACHAWAN", href: "https://heavyrain39.github.io/portfolio/" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(CreditLine, { role: "VEHICLE", name: "AT-01 TWINBURN" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: BUTTON_CLASS, onClick: () => setView("main"), children: "BACK" })
-      ] }),
+      view === "collection" && /* @__PURE__ */ jsxRuntimeExports.jsx(CollectionPanel, { profile, onBack: () => setView("main") }),
       view === "confirm" && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { role: "dialog", "aria-modal": "true", "aria-labelledby": "overwrite-title", className: "menu-panel border-2 border-[#25282d] bg-[#f7f3ed] p-5 shadow-[7px_7px_0_#ff3f78] max-w-[360px] mx-auto w-full animate-fade-in", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-mono text-[8px] font-black tracking-[0.22em] text-[#ff3f78]", children: "SAVE DATA WARNING" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { id: "overwrite-title", className: "mt-3 text-2xl font-black italic leading-none", children: "OVERWRITE RUN?" }),
@@ -13086,17 +13290,6 @@ function VolumeControl({ icon, label, value, onChange }) {
       }
     )
   ] });
-}
-function CreditLine({ role, name, href }) {
-  const content = /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-mono text-[8px] font-bold tracking-[0.18em] text-[#25282d]/50", children: role }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-1 flex items-baseline gap-1.5 text-lg font-black tracking-[-0.02em]", children: [
-      name,
-      href && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-mono text-[10px] text-[#25282d]/40 transition-colors group-hover:text-[#0a9db1]", children: "↗" })
-    ] })
-  ] });
-  if (!href) return content;
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("a", { className: "group block transition-colors hover:text-[#0a9db1]", href, target: "_blank", rel: "noreferrer", children: content });
 }
 const ROUTE_NODES = [
   [42, 392],
@@ -13510,8 +13703,9 @@ function UIOverlay({ snapshot, previousBestStars, previousBestScore, onExit, onR
   const isTerminal = snapshot.status === "gameover" || snapshot.status === "cleared";
   const isCleared = snapshot.status === "cleared";
   const isGameOver = snapshot.status === "gameover";
-  const isBoosted = snapshot.effect === "BOOST ON";
-  const isTwinFire = snapshot.effect === "TWIN FIRE";
+  const isBoosted = snapshot.effect === "BOOST ON" || snapshot.effect === "BOOST + FIRE";
+  const isTwinFire = snapshot.effect === "TWIN FIRE" || snapshot.effect === "BOOST + FIRE";
+  const isBoostFire = snapshot.effect === "BOOST + FIRE";
   const isDoubleScore = snapshot.effect === "DOUBLE SCORE";
   const isGoCue = snapshot.message === "GO!";
   const isClearing = snapshot.status === "clearing";
@@ -13582,10 +13776,10 @@ function UIOverlay({ snapshot, previousBestStars, previousBestScore, onExit, onR
         }
       )
     ] }),
-    !isTerminal && /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    /* @__PURE__ */ jsxRuntimeExports.jsxs(
       "div",
       {
-        className: `bgm-title pointer-events-none absolute bottom-[11px] left-1/2 z-20 max-w-[calc(100%-96px)] -translate-x-1/2 truncate whitespace-nowrap ${isNight ? "bgm-title--night" : ""}`,
+        className: `bgm-title pointer-events-none absolute bottom-[11px] left-1/2 z-30 max-w-[calc(100%-96px)] -translate-x-1/2 truncate whitespace-nowrap ${isNight ? "bgm-title--night" : ""}`,
         "aria-label": `Background music: ${snapshot.bgmTitle}`,
         children: [
           "BGM: ",
@@ -13604,7 +13798,7 @@ function UIOverlay({ snapshot, previousBestStars, previousBestScore, onExit, onR
           ] })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-right", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `hud-effect mb-1 inline-block px-2 py-0.5 font-mono text-[9px] font-black tracking-[0.12em] ${isBoosted ? "bg-[#20cfe1] text-[#24272c]" : isTwinFire ? "bg-[#b8f5ff] text-[#24272c]" : snapshot.effect === "REPAIR" ? "bg-[#39d98a] text-[#24272c]" : isDoubleScore ? "bg-[#f4b942] text-[#24272c]" : "hud-effect--idle bg-[#24272c] text-[#fdfaf6]"}`, children: snapshot.effect }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `hud-effect mb-1 inline-block px-2 py-0.5 font-mono text-[9px] font-black tracking-[0.12em] ${isBoostFire ? "bg-[#76e4eb] text-[#24272c]" : isBoosted ? "bg-[#20cfe1] text-[#24272c]" : isTwinFire ? "bg-[#b8f5ff] text-[#24272c]" : snapshot.effect === "REPAIR" ? "bg-[#39d98a] text-[#24272c]" : isDoubleScore ? "bg-[#f4b942] text-[#24272c]" : "hud-effect--idle bg-[#24272c] text-[#fdfaf6]"}`, children: snapshot.effect }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-3xl font-black italic leading-none tabular-nums", children: /* @__PURE__ */ jsxRuntimeExports.jsx(TickingNumber, { target: snapshot.score, padStart: snapshot.score < 1e5 ? 5 : 6, className: "hud-number-tick hud-number-tick--score" }) })
         ] })
       ] }),
@@ -15185,10 +15379,17 @@ const RAIN_STREAK_COUNT = 220;
 const SNOW_PARTICLE_COUNT = 220;
 const RAIN_RIPPLE_COUNT = 56;
 const STREETLIGHT_COUNT = 16;
+const STAR_COUNT = 160;
 const MAX_ROAD_HEADING = 0.115;
 const FORWARD_VISIBILITY_SCALE = 1.14;
-const FINISH_S_LENGTH = 176;
-const FINISH_S_EXIT_PROGRESS = 0.68;
+const FINISH_STRAIGHT_LENGTH = 96;
+const FINISH_S_MIN_LENGTH = 240;
+const FINISH_S_EXIT_PROGRESS = 0.96;
+const FINISH_S_AMPLITUDE = 4.2;
+const FINISH_S_EDGE_EASE = 0.1;
+const JUMP_GAP_VISUAL_WIDTH = 132;
+const JUMP_GAP_WALL_HEIGHT = 96;
+const JUMP_GAP_ROADSIDE_MARGIN = 10;
 const ROAD_PATTERN_TEMPLATES = [
   { id: "straight-charge", length: 64, mirrorable: false, headingPoints: [[0, 0], [1, 0]] },
   { id: "committed-turn", length: 96, headingPoints: [[0, 0], [0.14, 0], [0.72, 0.1], [1, 0.1]] },
@@ -15241,6 +15442,7 @@ class Environment {
     __publicField(this, "streetLightPools", []);
     __publicField(this, "streetLightPoolTexture", this.createStreetLightPoolTexture());
     __publicField(this, "starTexture", this.createStarTexture());
+    __publicField(this, "jumpGapWallTexture", this.createJumpGapWallTexture());
     __publicField(this, "distance", 0);
     __publicField(this, "weatherElapsed", 0);
     __publicField(this, "roadPatternSegments", []);
@@ -15250,6 +15452,8 @@ class Environment {
     __publicField(this, "roadPatternHeading", 0);
     __publicField(this, "lastRoadPatternId", "");
     __publicField(this, "finishRoute", null);
+    __publicField(this, "jumpGap", null);
+    __publicField(this, "jumpGapVisual");
     __publicField(this, "segmentLength", 2);
     __publicField(this, "segmentCount", 72);
     __publicField(this, "rearRoadExtent", 16);
@@ -15268,6 +15472,26 @@ class Environment {
     __publicField(this, "serviceRoadMaterial", new THREE.MeshBasicMaterial({ color: 8751239 }));
     __publicField(this, "edgeMaterial", new THREE.LineBasicMaterial({ color: 3422012, transparent: true, opacity: 0.76 }));
     __publicField(this, "roadSurfaceMaterial", new THREE.MeshBasicMaterial({ color: 15263199 }));
+    __publicField(this, "gapVoidMaterial", new THREE.MeshBasicMaterial({ color: 66052, fog: false }));
+    __publicField(this, "gapCliffMaterial", new THREE.MeshStandardMaterial({ color: 2370092, roughness: 0.96, metalness: 0.04 }));
+    __publicField(this, "gapConcreteMaterial", new THREE.MeshStandardMaterial({
+      color: 13684682,
+      map: this.jumpGapWallTexture,
+      roughness: 0.97,
+      metalness: 0.02
+    }));
+    __publicField(this, "gapMetalMaterial", new THREE.MeshStandardMaterial({
+      color: 9869976,
+      map: this.jumpGapWallTexture,
+      roughness: 0.72,
+      metalness: 0.38
+    }));
+    __publicField(this, "scheduleJumpGap", (distanceAhead, length) => {
+      this.jumpGap = {
+        start: this.distance + distanceAhead,
+        end: this.distance + distanceAhead + length
+      };
+    });
     __publicField(this, "getRoadOffset", (z) => {
       const rawOffset = this.getRoadCenter(this.distance - z) - this.getRoadCenter(this.distance);
       return Math.tanh(rawOffset / 4.8) * 4.8;
@@ -15294,7 +15518,7 @@ class Environment {
       let nearest = null;
       let nearestDistance = distance + 1;
       for (const prop of this.destructibleProps) {
-        if (prop.userData.destroyed) continue;
+        if (prop.userData.destroyed || prop.userData.hiddenByJumpGap) continue;
         prop.updateWorldMatrix(true, true);
         const box = new THREE.Box3();
         prop.traverse((child) => {
@@ -15324,6 +15548,8 @@ class Environment {
       return nearest;
     });
     this.scene = scene;
+    this.jumpGapVisual = this.createJumpGapVisual();
+    scene.add(this.jumpGapVisual.root);
     this.resetRoadRoute();
     scene.fog = new THREE.Fog(15855336, 24, 105);
     for (let index = 0; index < this.segmentCount; index++) {
@@ -15343,6 +15569,8 @@ class Environment {
   }
   resetRoadRoute() {
     this.finishRoute = null;
+    this.jumpGap = null;
+    this.jumpGapVisual.root.visible = false;
     this.roadPatternSegments = [];
     this.roadPatternBag = [];
     this.lastRoadPatternId = "";
@@ -15361,7 +15589,8 @@ class Environment {
       start,
       center,
       slope: THREE.MathUtils.clamp(slope, -0.12, 0.12),
-      sStart: null
+      sStart: null,
+      sLength: FINISH_S_MIN_LENGTH
     };
   }
   beginFinishRoute(exitTravelDistance) {
@@ -15369,10 +15598,11 @@ class Environment {
       this.prepareFinishRoute(0);
     }
     if (!this.finishRoute) return;
-    this.finishRoute.sStart = this.distance + this.getFinishStraightLength(exitTravelDistance);
-  }
-  getFinishStraightLength(exitTravelDistance) {
-    return Math.max(72, exitTravelDistance - FINISH_S_LENGTH * FINISH_S_EXIT_PROGRESS);
+    this.finishRoute.sStart = this.distance + FINISH_STRAIGHT_LENGTH;
+    this.finishRoute.sLength = Math.max(
+      FINISH_S_MIN_LENGTH,
+      (exitTravelDistance - FINISH_STRAIGHT_LENGTH) / FINISH_S_EXIT_PROGRESS
+    );
   }
   patternFitsHeading(recipe, startHeading) {
     return recipe.headingPoints.every(([, delta]) => Math.abs(startHeading + delta) <= MAX_ROAD_HEADING);
@@ -15481,20 +15711,26 @@ class Environment {
     if (segment) return this.sampleRoadPattern(segment, sample);
     return ((_a = this.roadPatternSegments[0]) == null ? void 0 : _a.centerSamples[0]) ?? 0;
   }
-  getFinishRoadOffset(sample, sStart) {
-    if (sStart === null || sample <= sStart || sample >= sStart + FINISH_S_LENGTH) return 0;
-    const progress = (sample - sStart) / FINISH_S_LENGTH;
-    return Math.pow(Math.sin(progress * Math.PI * 2), 3) * 2.8;
+  getFinishRoadOffset(sample, sStart, sLength) {
+    if (sStart === null || sample <= sStart || sample >= sStart + sLength) return 0;
+    const progress = THREE.MathUtils.clamp(
+      (sample - sStart) / sLength / FINISH_S_EXIT_PROGRESS,
+      0,
+      1
+    );
+    const edgeEase = THREE.MathUtils.smoothstep(progress, 0, FINISH_S_EDGE_EASE) * THREE.MathUtils.smoothstep(1 - progress, 0, FINISH_S_EDGE_EASE);
+    return Math.sin(progress * Math.PI * 2) * FINISH_S_AMPLITUDE * edgeEase;
   }
   getRoadCenter(sample) {
     if (this.finishRoute && sample >= this.finishRoute.start) {
       const distance = sample - this.finishRoute.start;
-      return this.finishRoute.center + this.finishRoute.slope * distance + this.getFinishRoadOffset(sample, this.finishRoute.sStart);
+      return this.finishRoute.center + this.finishRoute.slope * distance + this.getFinishRoadOffset(sample, this.finishRoute.sStart, this.finishRoute.sLength);
     }
     return this.getProceduralRoadCenter(sample);
   }
   createRoadSegment(hasDividerDash) {
     const group = new THREE.Group();
+    const roadDeckParts = [];
     const surface = new THREE.Mesh(
       new THREE.PlaneGeometry(this.roadWidth, this.segmentLength + 0.28),
       this.roadSurfaceMaterial
@@ -15502,11 +15738,13 @@ class Environment {
     surface.rotation.x = -Math.PI / 2;
     surface.position.y = -0.018;
     group.add(surface);
+    roadDeckParts.push(surface);
     const boundaryGeometry = new THREE.BoxGeometry(0.045, 0.022, this.segmentLength + 0.18);
     for (const x of [-this.roadWidth / 2, this.roadWidth / 2]) {
       const boundary = new THREE.Mesh(boundaryGeometry, this.darkMaterial);
       boundary.position.set(x, 0.012, 0);
       group.add(boundary);
+      roadDeckParts.push(boundary);
     }
     const curbGeometry = new THREE.BoxGeometry(0.14, 0.18, this.segmentLength + 0.32);
     const curbOffset = this.roadWidth / 2 + 0.18;
@@ -15514,6 +15752,7 @@ class Environment {
       const curb = new THREE.Mesh(curbGeometry, this.darkMaterial);
       curb.position.set(x, 0.04, 0);
       group.add(curb);
+      roadDeckParts.push(curb);
     }
     if (hasDividerDash) {
       const dashGeometry = new THREE.BoxGeometry(0.09, 0.018, 1.44);
@@ -15521,9 +15760,295 @@ class Environment {
         const dash = new THREE.Mesh(dashGeometry, this.cyanMaterial);
         dash.position.set(x, 0.016, 0);
         group.add(dash);
+        roadDeckParts.push(dash);
       }
     }
+    group.userData.roadDeckParts = roadDeckParts;
     return group;
+  }
+  updateRoadGapPresentation(segment) {
+    const sample = this.distance - segment.position.z;
+    const inGap = this.jumpGap !== null && sample >= this.jumpGap.start && sample <= this.jumpGap.end;
+    const roadDeckParts = segment.userData.roadDeckParts;
+    for (const part of roadDeckParts) part.visible = !inGap;
+  }
+  addJumpGapBox(group, size, material, position) {
+    const mesh = new THREE.Mesh(new THREE.BoxGeometry(...size), material);
+    mesh.position.set(...position);
+    group.add(mesh);
+    return mesh;
+  }
+  addJumpGapBoxInstances(group, size, material, transforms) {
+    const mesh = new THREE.InstancedMesh(new THREE.BoxGeometry(...size), material, transforms.length);
+    const dummy = new THREE.Object3D();
+    transforms.forEach((transform, index) => {
+      dummy.position.set(...transform.position);
+      dummy.rotation.set(0, 0, transform.rotationZ ?? 0);
+      dummy.updateMatrix();
+      mesh.setMatrixAt(index, dummy.matrix);
+    });
+    group.add(mesh);
+    return mesh;
+  }
+  addJumpGapServiceBays(group, placements, factory) {
+    const frameMaterial = factory ? this.gapMetalMaterial : this.gapConcreteMaterial;
+    this.addJumpGapBoxInstances(
+      group,
+      [7.4, 3.8, 2.12],
+      this.gapCliffMaterial,
+      placements.map(([x, y]) => ({ position: [x, y, 0.12] }))
+    );
+    for (const side of [-1, 1]) {
+      this.addJumpGapBoxInstances(
+        group,
+        [0.38, 4.35, 2.62],
+        frameMaterial,
+        placements.map(([x, y]) => ({ position: [x + side * 3.9, y, 0.12] }))
+      );
+    }
+    this.addJumpGapBoxInstances(
+      group,
+      [8.18, 0.42, 2.62],
+      frameMaterial,
+      placements.map(([x, y]) => ({ position: [x, y + 2.12, 0.12] }))
+    );
+    this.addJumpGapBoxInstances(
+      group,
+      [4.8, 0.16, 2.32],
+      this.gapMetalMaterial,
+      placements.map(([x, y]) => ({ position: [x, y - 0.48, 0.35] }))
+    );
+  }
+  createJumpGapWallTexture() {
+    const canvas = document.createElement("canvas");
+    canvas.width = 256;
+    canvas.height = 512;
+    const context = canvas.getContext("2d");
+    if (context) {
+      const image = context.createImageData(canvas.width, canvas.height);
+      let seed = 49734321;
+      const random = () => {
+        seed = seed * 1664525 + 1013904223 >>> 0;
+        return seed / 4294967295;
+      };
+      for (let y = 0; y < canvas.height; y++) {
+        const depth = y / (canvas.height - 1);
+        const depthShade = 158 - Math.pow(depth, 0.82) * 128;
+        for (let x = 0; x < canvas.width; x++) {
+          const broadMottle = Math.sin(x * 0.083 + y * 0.021) * 3.2 + Math.sin(x * 0.019 - y * 0.037) * 2.4;
+          const grain = (random() - 0.5) * 9;
+          const value = THREE.MathUtils.clamp(depthShade + broadMottle + grain, 18, 172);
+          const offset = (y * canvas.width + x) * 4;
+          image.data[offset] = value;
+          image.data[offset + 1] = value + 1;
+          image.data[offset + 2] = value;
+          image.data[offset + 3] = 255;
+        }
+      }
+      context.putImageData(image, 0, 0);
+      context.globalCompositeOperation = "multiply";
+      for (let index = 0; index < 18; index++) {
+        const x = 8 + random() * 240;
+        const width = 1 + random() * 5;
+        const start = 18 + random() * 210;
+        const end = Math.min(512, start + 90 + random() * 260);
+        const stain = context.createLinearGradient(0, start, 0, end);
+        stain.addColorStop(0, "rgba(105,105,101,0)");
+        stain.addColorStop(0.22, `rgba(72,73,70,${0.08 + random() * 0.1})`);
+        stain.addColorStop(1, "rgba(38,39,38,0)");
+        context.fillStyle = stain;
+        context.fillRect(x, start, width, end - start);
+      }
+      context.strokeStyle = "rgba(70,71,68,0.22)";
+      context.lineWidth = 1;
+      for (const x of [0.5, 64.5, 128.5, 192.5, 255.5]) {
+        context.beginPath();
+        context.moveTo(x, 0);
+        context.lineTo(x, 512);
+        context.stroke();
+      }
+      for (const y of [128.5, 256.5, 384.5]) {
+        context.beginPath();
+        context.moveTo(0, y);
+        context.lineTo(256, y);
+        context.stroke();
+      }
+      context.globalCompositeOperation = "source-over";
+    }
+    const texture = new THREE.CanvasTexture(canvas);
+    texture.colorSpace = THREE.SRGBColorSpace;
+    texture.wrapS = THREE.RepeatWrapping;
+    texture.repeat.set(3, 1);
+    return texture;
+  }
+  createJumpGapWallLayer(factory) {
+    const group = new THREE.Group();
+    group.name = factory ? "jump_gap_factory_wall" : "jump_gap_city_wall";
+    const wallMaterial = factory ? this.gapMetalMaterial : this.gapConcreteMaterial;
+    this.addJumpGapBox(
+      group,
+      [JUMP_GAP_VISUAL_WIDTH, JUMP_GAP_WALL_HEIGHT, 1.8],
+      wallMaterial,
+      [0, -48, 0]
+    );
+    this.addJumpGapBox(
+      group,
+      [JUMP_GAP_VISUAL_WIDTH + 2.8, 0.72, 3.4],
+      factory ? this.gapMetalMaterial : this.gapConcreteMaterial,
+      [0, -0.34, 0]
+    );
+    const pierMaterial = factory ? this.gapCliffMaterial : this.gapConcreteMaterial;
+    const pierPositions = [-60, -48, -36, -24, -12, 0, 12, 24, 36, 48, 60];
+    this.addJumpGapBoxInstances(
+      group,
+      [factory ? 1.8 : 2.2, 16, 3.1],
+      pierMaterial,
+      pierPositions.map((x) => ({ position: [x, -8, 0] }))
+    );
+    this.addJumpGapBoxInstances(
+      group,
+      [factory ? 2.3 : 2.7, 22, 4.2],
+      pierMaterial,
+      pierPositions.map((x) => ({ position: [x, -27, 0] }))
+    );
+    this.addJumpGapBoxInstances(
+      group,
+      [factory ? 3 : 3.5, 30, 5.5],
+      pierMaterial,
+      pierPositions.map((x) => ({ position: [x, -53, 0] }))
+    );
+    this.addJumpGapBoxInstances(
+      group,
+      [factory ? 4 : 4.6, 28, 7],
+      pierMaterial,
+      pierPositions.map((x) => ({ position: [x, -82, 0] }))
+    );
+    this.addJumpGapBoxInstances(
+      group,
+      [JUMP_GAP_VISUAL_WIDTH - 2.4, 0.18, factory ? 2.35 : 2.2],
+      this.gapCliffMaterial,
+      [-8, -16, -24, -32, -40, -48, -56, -64, -72, -80, -88].map((y) => ({ position: [0, y, 0] }))
+    );
+    const galleryLevels = [-17.2, -38.4, -59.6, -80.8];
+    this.addJumpGapBoxInstances(
+      group,
+      [JUMP_GAP_VISUAL_WIDTH - 4, 0.72, factory ? 4.6 : 4],
+      this.gapMetalMaterial,
+      galleryLevels.map((y) => ({ position: [0, y, 0] }))
+    );
+    this.addJumpGapBoxInstances(
+      group,
+      [JUMP_GAP_VISUAL_WIDTH - 6, 0.22, factory ? 5.1 : 4.5],
+      this.gapCliffMaterial,
+      galleryLevels.map((y) => ({ position: [0, y + 1.45, 0] }))
+    );
+    const serviceBayColumns = [-54, -42, -30, -18, -6, 6, 18, 30, 42, 54];
+    const serviceBays = [-11.6, -33, -54.5].flatMap((y) => serviceBayColumns.map((x) => [x, y]));
+    this.addJumpGapServiceBays(group, serviceBays, factory);
+    const outlets = new THREE.InstancedMesh(
+      new THREE.CylinderGeometry(factory ? 0.62 : 0.72, factory ? 0.62 : 0.72, 1.4, 12),
+      this.gapCliffMaterial,
+      serviceBayColumns.length
+    );
+    const outletDummy = new THREE.Object3D();
+    serviceBayColumns.forEach((x, index) => {
+      outletDummy.position.set(x, -69.2, 1.25);
+      outletDummy.rotation.set(Math.PI / 2, 0, 0);
+      outletDummy.updateMatrix();
+      outlets.setMatrixAt(index, outletDummy.matrix);
+    });
+    group.add(outlets);
+    if (factory) {
+      this.addJumpGapBoxInstances(
+        group,
+        [1.05, 23, 4.8],
+        this.gapCliffMaterial,
+        [
+          [-53, -0.42, -49],
+          [-29, 0.42, -49],
+          [29, -0.42, -49],
+          [53, 0.42, -49],
+          [-53, 0.42, -79],
+          [-29, -0.42, -79],
+          [29, 0.42, -79],
+          [53, -0.42, -79]
+        ].map(([x, rotationZ, y]) => ({
+          position: [x, y, 0],
+          rotationZ
+        }))
+      );
+    }
+    return group;
+  }
+  createJumpGapFace() {
+    const group = new THREE.Group();
+    const cityLayer = this.createJumpGapWallLayer(false);
+    const factoryLayer = this.createJumpGapWallLayer(true);
+    group.add(cityLayer, factoryLayer);
+    return { group, cityLayer, factoryLayer };
+  }
+  createJumpGapVisual() {
+    const root = new THREE.Group();
+    root.name = "jump_gap_landmark";
+    root.visible = false;
+    const floor = new THREE.Mesh(new THREE.BoxGeometry(1, 0.5, 1), this.gapVoidMaterial);
+    floor.name = "jump_gap_depth_floor";
+    const nearFace = this.createJumpGapFace();
+    const farFace = this.createJumpGapFace();
+    root.add(floor, nearFace.group, farFace.group);
+    return { root, floor, nearFace, farFace };
+  }
+  setJumpGapFacePose(face, sample) {
+    const z = this.distance - sample;
+    face.group.position.set(
+      this.getRoadOffset(z),
+      this.getRoadElevation(z) + 0.04,
+      z
+    );
+    face.group.rotation.y = -this.getRoadHeading(z);
+    face.cityLayer.visible = this.biome === "city";
+    face.factoryLayer.visible = this.biome === "factory";
+  }
+  updateJumpGapVisual() {
+    const visual = this.jumpGapVisual;
+    if (!this.jumpGap) {
+      visual.root.visible = false;
+      return;
+    }
+    visual.root.visible = true;
+    const length = this.jumpGap.end - this.jumpGap.start;
+    const middle = (this.jumpGap.start + this.jumpGap.end) * 0.5;
+    const middleZ = this.distance - middle;
+    const nearZ = this.distance - this.jumpGap.start;
+    const farZ = this.distance - this.jumpGap.end;
+    visual.floor.position.set(
+      this.getRoadOffset(middleZ),
+      Math.min(this.getRoadElevation(nearZ), this.getRoadElevation(farZ)) - JUMP_GAP_WALL_HEIGHT - 0.3,
+      middleZ
+    );
+    visual.floor.rotation.y = -this.getRoadHeading(middleZ);
+    visual.floor.scale.set(JUMP_GAP_VISUAL_WIDTH + 24, 1, length + 8);
+    this.setJumpGapFacePose(visual.nearFace, this.jumpGap.start);
+    this.setJumpGapFacePose(visual.farFace, this.jumpGap.end);
+  }
+  updateRoadsideGapPresentation(group) {
+    const sample = this.distance - group.position.z;
+    const inGap = this.jumpGap !== null && sample >= this.jumpGap.start - JUMP_GAP_ROADSIDE_MARGIN && sample <= this.jumpGap.end + JUMP_GAP_ROADSIDE_MARGIN;
+    if (inGap) {
+      if (!group.userData.hiddenByJumpGap) {
+        group.traverse((child) => {
+          if (child.userData.destructible) child.userData.hiddenByJumpGap = true;
+        });
+      }
+      group.userData.hiddenByJumpGap = true;
+      group.visible = false;
+    } else if (group.userData.hiddenByJumpGap) {
+      group.traverse((child) => {
+        if (child.userData.destructible) child.userData.hiddenByJumpGap = false;
+      });
+      group.userData.hiddenByJumpGap = false;
+      group.visible = !group.userData.destroyed;
+    }
   }
   createRoadsideField() {
     if (this.biome === "factory") {
@@ -15898,31 +16423,100 @@ class Environment {
   }
   createStars() {
     const geometry = new THREE.BufferGeometry();
-    const positions = new Float32Array(110 * 3);
-    const colors = new Float32Array(110 * 3);
+    const positions = new Float32Array(STAR_COUNT * 3);
+    const colors = new Float32Array(STAR_COUNT * 3);
+    const sizes = new Float32Array(STAR_COUNT);
+    const twinklePhases = new Float32Array(STAR_COUNT);
+    const twinkleSpeeds = new Float32Array(STAR_COUNT);
+    const twinkleStrengths = new Float32Array(STAR_COUNT);
+    let seed = 1831565813;
+    const random = () => {
+      seed = seed * 1664525 + 1013904223 >>> 0;
+      return seed / 4294967295;
+    };
     for (let index = 0; index < positions.length; index += 3) {
-      const radius = 105 + Math.random() * 28;
-      const azimuth = (Math.random() - 0.5) * 1.35;
-      const elevation = 0.08 + Math.random() * 0.34;
+      const starIndex = index / 3;
+      const radius = 112 + random() * 26;
+      const azimuth = (random() - 0.5) * 2.25;
+      const elevation = 0.07 + Math.pow(random(), 0.72) * 0.76;
       const horizontalRadius = Math.cos(elevation) * radius;
-      const brightness = 0.58 + Math.random() * 0.42;
+      const brightness = 0.52 + random() * 0.48;
+      const temperature = random();
+      const sizeSeed = random();
       positions[index] = Math.sin(azimuth) * horizontalRadius;
       positions[index + 1] = Math.sin(elevation) * radius;
       positions[index + 2] = -Math.cos(azimuth) * horizontalRadius;
-      colors[index] = brightness * 0.82;
-      colors[index + 1] = brightness * 0.94;
-      colors[index + 2] = brightness;
+      if (temperature < 0.12) {
+        colors[index] = brightness;
+        colors[index + 1] = brightness * 0.88;
+        colors[index + 2] = brightness * 0.72;
+      } else if (temperature < 0.7) {
+        colors[index] = brightness * 0.82;
+        colors[index + 1] = brightness * 0.93;
+        colors[index + 2] = brightness;
+      } else {
+        colors[index] = brightness * 0.94;
+        colors[index + 1] = brightness * 0.97;
+        colors[index + 2] = brightness;
+      }
+      sizes[starIndex] = sizeSeed > 0.955 ? 1.35 + random() * 0.42 : 0.42 + Math.pow(sizeSeed, 2.7) * 0.8;
+      twinklePhases[starIndex] = random() * Math.PI * 2;
+      twinkleSpeeds[starIndex] = 0.34 + random() * 1.08;
+      twinkleStrengths[starIndex] = 0.04 + Math.pow(sizeSeed, 1.8) * 0.18;
     }
     geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
-    geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
-    return new THREE.Points(geometry, new THREE.PointsMaterial({
-      color: 16777215,
-      size: 0.72,
-      map: this.starTexture,
-      vertexColors: true,
+    geometry.setAttribute("starColor", new THREE.BufferAttribute(colors, 3));
+    geometry.setAttribute("starSize", new THREE.BufferAttribute(sizes, 1));
+    geometry.setAttribute("twinklePhase", new THREE.BufferAttribute(twinklePhases, 1));
+    geometry.setAttribute("twinkleSpeed", new THREE.BufferAttribute(twinkleSpeeds, 1));
+    geometry.setAttribute("twinkleStrength", new THREE.BufferAttribute(twinkleStrengths, 1));
+    return new THREE.Points(geometry, new THREE.ShaderMaterial({
+      uniforms: {
+        starMap: { value: this.starTexture },
+        time: { value: 0 },
+        opacity: { value: 0.86 },
+        pointScale: { value: 540 }
+      },
+      vertexShader: (
+        /* glsl */
+        `
+                attribute vec3 starColor;
+                attribute float starSize;
+                attribute float twinklePhase;
+                attribute float twinkleSpeed;
+                attribute float twinkleStrength;
+                uniform float time;
+                uniform float pointScale;
+                varying vec3 vStarColor;
+                varying float vTwinkle;
+
+                void main() {
+                    vec4 viewPosition = modelViewMatrix * vec4(position, 1.0);
+                    float wave = 0.5 + 0.5 * sin(time * twinkleSpeed + twinklePhase);
+                    vTwinkle = 1.0 - twinkleStrength + wave * twinkleStrength;
+                    vStarColor = starColor;
+                    gl_PointSize = clamp(starSize * pointScale / max(1.0, -viewPosition.z), 1.0, 18.0);
+                    gl_Position = projectionMatrix * viewPosition;
+                }
+            `
+      ),
+      fragmentShader: (
+        /* glsl */
+        `
+                uniform sampler2D starMap;
+                uniform float opacity;
+                varying vec3 vStarColor;
+                varying float vTwinkle;
+
+                void main() {
+                    vec4 sprite = texture2D(starMap, gl_PointCoord);
+                    float alpha = sprite.a * opacity * vTwinkle;
+                    if (alpha < 0.025) discard;
+                    gl_FragColor = vec4(vStarColor * sprite.rgb * (0.86 + vTwinkle * 0.2), alpha);
+                }
+            `
+      ),
       transparent: true,
-      opacity: 0.82,
-      alphaTest: 0.04,
       depthWrite: false,
       fog: false,
       blending: THREE.AdditiveBlending
@@ -15937,10 +16531,23 @@ class Environment {
       const gradient = context.createRadialGradient(16, 16, 0, 16, 16, 15);
       gradient.addColorStop(0, "rgba(255, 255, 255, 1)");
       gradient.addColorStop(0.18, "rgba(225, 247, 255, 0.95)");
-      gradient.addColorStop(0.52, "rgba(170, 220, 235, 0.34)");
+      gradient.addColorStop(0.48, "rgba(170, 220, 235, 0.28)");
       gradient.addColorStop(1, "rgba(130, 190, 210, 0)");
       context.fillStyle = gradient;
       context.fillRect(0, 0, 32, 32);
+      const ray = context.createLinearGradient(4, 16, 28, 16);
+      ray.addColorStop(0, "rgba(210,238,245,0)");
+      ray.addColorStop(0.5, "rgba(235,250,255,0.2)");
+      ray.addColorStop(1, "rgba(210,238,245,0)");
+      context.fillStyle = ray;
+      context.fillRect(4, 15.55, 24, 0.9);
+      context.save();
+      context.translate(16, 16);
+      context.rotate(Math.PI / 2);
+      context.translate(-16, -16);
+      context.fillStyle = ray;
+      context.fillRect(4, 15.55, 24, 0.9);
+      context.restore();
     }
     const texture = new THREE.CanvasTexture(canvas);
     texture.colorSpace = THREE.SRGBColorSpace;
@@ -16130,8 +16737,7 @@ class Environment {
       pool.material.opacity = night ? factory ? 0.15 : 0.18 : factory ? 0.08 : 0;
     }
     const starsMaterial = this.stars.material;
-    starsMaterial.color.setHex(night ? 16777215 : 9409173);
-    starsMaterial.size = night ? 0.72 : 0.58;
+    starsMaterial.uniforms.opacity.value = night ? 0.86 : 0;
     this.rainRippleOpacity = night ? 0.82 : 0.78;
     this.setWeather(this.currentWeather);
   }
@@ -16149,7 +16755,7 @@ class Environment {
       rain: { background: 6774361, fogNear: 21, fogFar: 78 },
       snow: { background: 9205094, fogNear: 26, fogFar: 88 }
     } : this.theme === "night" ? {
-      clear: { background: 1648947, fogNear: 27, fogFar: 96 },
+      clear: { background: 1320496, fogNear: 36, fogFar: 112 },
       overcast: { background: 2241083, fogNear: 23, fogFar: 86 },
       rain: { background: 1649461, fogNear: 21, fogFar: 82 },
       snow: { background: 3294028, fogNear: 23, fogFar: 86 }
@@ -16191,7 +16797,10 @@ class Environment {
       segment.position.y = this.getRoadElevation(segment.position.z);
       segment.rotation.x = this.getRoadSlope(segment.position.z);
       segment.rotation.y = -this.getRoadHeading(segment.position.z);
+      this.updateRoadGapPresentation(segment);
     }
+    if (this.jumpGap && this.distance > this.jumpGap.end + this.rearRoadExtent) this.jumpGap = null;
+    this.updateJumpGapVisual();
     const propWrap = this.roadsideRowCount * this.roadsideSpacing;
     for (const prop of this.roadsideProps) {
       prop.group.position.z += speed * delta;
@@ -16206,13 +16815,14 @@ class Environment {
       prop.group.position.x = this.getRoadOffset(prop.group.position.z) + prop.side * prop.shoulder;
       prop.group.position.y = this.getRoadElevation(prop.group.position.z);
       prop.group.rotation.y = -this.getRoadHeading(prop.group.position.z);
+      this.updateRoadsideGapPresentation(prop.group);
       const rotor = prop.group.getObjectByName("roadside_rotor");
       if (rotor) rotor.rotation.z += delta * (boosted ? 8 : 3.2);
     }
     this.updateStreetlightIllumination();
     if (this.stars.visible) {
       const starsMaterial = this.stars.material;
-      starsMaterial.opacity = 0.78 + Math.sin(this.weatherElapsed * 0.72) * 0.035 + Math.sin(this.weatherElapsed * 1.13 + 0.8) * 0.025;
+      starsMaterial.uniforms.time.value = this.weatherElapsed;
     }
     if (this.rain.visible) {
       for (let index = 0; index < RAIN_STREAK_COUNT; index++) {
@@ -16307,6 +16917,8 @@ class Environment {
   }
   anchorSky(position) {
     this.stars.position.copy(position);
+    const starsMaterial = this.stars.material;
+    starsMaterial.uniforms.pointScale.value = Math.min(window.innerHeight, 1200) * Math.min(window.devicePixelRatio, 2) * 0.72;
   }
   disposeObject(object) {
     object.traverse((child) => {
@@ -16317,6 +16929,7 @@ class Environment {
   }
   dispose() {
     for (const segment of this.roadSegments) this.disposeObject(segment);
+    this.disposeObject(this.jumpGapVisual.root);
     this.clearRoadsideField();
     this.disposeObject(this.stars);
     this.stars.material.dispose();
@@ -16340,14 +16953,23 @@ class Environment {
     this.serviceRoadMaterial.dispose();
     this.edgeMaterial.dispose();
     this.roadSurfaceMaterial.dispose();
+    this.gapVoidMaterial.dispose();
+    this.gapCliffMaterial.dispose();
+    this.gapConcreteMaterial.dispose();
+    this.gapMetalMaterial.dispose();
+    this.jumpGapWallTexture.dispose();
     this.snowTexture.dispose();
     this.streetLightPoolTexture.dispose();
     this.factoryKit.dispose();
   }
 }
 const PROJECTILE_OBSTACLE_HIT_RADIUS = 1.05;
+const JUMP_GAP_LENGTH = 112;
+const GAP_RAMP_RECOVERY_SECONDS = 3.8;
+const SHARD_LIFETIME_SCALE = 1 / 1.2;
+const SHARD_SPEED_SCALE = 1.18;
 class ObstacleManager {
-  constructor(scene, roadOffset = () => 0, roadHeading = () => 0, hitRoadside = () => null, roadElevation = () => 0) {
+  constructor(scene, roadOffset = () => 0, roadHeading = () => 0, hitRoadside = () => null, roadElevation = () => 0, scheduleJumpGap = () => void 0) {
     __publicField(this, "entities", []);
     __publicField(this, "projectiles", []);
     __publicField(this, "shards", []);
@@ -16376,6 +16998,8 @@ class ObstacleManager {
     __publicField(this, "spawnedOverdrive", false);
     __publicField(this, "lastPickupKind", null);
     __publicField(this, "samePickupStreak", 0);
+    __publicField(this, "gapRampRowTarget", 9);
+    __publicField(this, "spawnedGapRamp", false);
     __publicField(this, "spawning", true);
     __publicField(this, "nextFireSide", -1);
     __publicField(this, "scene");
@@ -16383,11 +17007,13 @@ class ObstacleManager {
     __publicField(this, "roadHeading");
     __publicField(this, "roadElevation");
     __publicField(this, "hitRoadside");
+    __publicField(this, "scheduleJumpGap");
     this.scene = scene;
     this.roadOffset = roadOffset;
     this.roadHeading = roadHeading;
     this.hitRoadside = hitRoadside;
     this.roadElevation = roadElevation;
+    this.scheduleJumpGap = scheduleJumpGap;
   }
   createObstaclePreview(variant, biome = "city") {
     return this.instantiateTemplate(this.getObstacleTemplate(Math.max(0, Math.min(4, Math.floor(variant))), biome));
@@ -16440,6 +17066,8 @@ class ObstacleManager {
     this.spawnedOverdrive = false;
     this.lastPickupKind = null;
     this.samePickupStreak = 0;
+    this.gapRampRowTarget = Math.random() < 0.5 ? 9 : 18;
+    this.spawnedGapRamp = false;
   }
   update(delta, speed, playerX, canSmash, allowRepair, allowDoubleScore, allowWeapon, previousPlayerX = playerX, scoreMultiplier = 1, playerAirborne = false, playerZ = 0, previousPlayerZ = playerZ, showScorePopups = true) {
     const events = [];
@@ -16458,7 +17086,7 @@ class ObstacleManager {
       const horizonFade = THREE.MathUtils.smoothstep(entity.object.position.z, this.spawnZ, this.spawnZ + 19);
       const appearance = Math.min(entity.spawnFade, horizonFade);
       this.applySpawnFade(entity.object, appearance);
-      if (entity.kind !== "obstacle" && entity.kind !== "ramp") {
+      if (entity.kind !== "obstacle" && entity.kind !== "ramp" && entity.kind !== "gapRamp") {
         const floatWave = Math.sin(entity.spin * 3.8 + entity.floatPhase);
         const springWave = Math.sin(entity.spin * 7.6 + entity.floatPhase) * 0.012;
         entity.object.position.y = entity.baseY + this.roadElevation(currentZ) + floatWave * 0.085;
@@ -16466,9 +17094,15 @@ class ObstacleManager {
       }
       const itemRing = entity.object.getObjectByName("item_ring");
       if (itemRing) itemRing.rotation.z = entity.spin * 2.8;
+      const rampArrowGlow = entity.object.getObjectByName("ramp_arrow_glow");
+      if (rampArrowGlow instanceof THREE.Mesh) {
+        const pulse = 0.5 + Math.sin(entity.spin * 5.2) * 0.5;
+        rampArrowGlow.material.opacity = 0.28 + pulse * 0.16;
+        rampArrowGlow.scale.setScalar(1 + pulse * 0.055);
+      }
       const rotor = entity.object.getObjectByName("obstacle_rotor");
       if (rotor) rotor.rotation.y += delta * 1.7;
-      const collisionRadius = entity.kind === "obstacle" ? 0.6 : entity.kind === "ramp" ? 0.72 : 0.82;
+      const collisionRadius = entity.kind === "obstacle" ? 0.6 : entity.kind === "ramp" || entity.kind === "gapRamp" ? 0.72 : 0.82;
       if (!entity.collided && this.intersectsPlayer(entity.lane, previousZ, currentZ, previousPlayerX, playerX, collisionRadius, previousPlayerZ, playerZ)) {
         if (entity.kind === "obstacle" && playerAirborne) continue;
         entity.collided = true;
@@ -16523,6 +17157,15 @@ class ObstacleManager {
     if (this.pendingRows.length === 0) this.queuePattern();
     const row = this.pendingRows.shift();
     if (!row) return;
+    const nextObstacleRow = row.obstacles.length > 0 ? this.rowCount + 1 : this.rowCount;
+    if (!this.spawnedGapRamp && nextObstacleRow >= this.gapRampRowTarget) {
+      for (const lane of [-1, 0, 1]) this.addEntity("gapRamp", lane);
+      this.scheduleJumpGap(-this.spawnZ + 1.5, JUMP_GAP_LENGTH);
+      this.spawnedGapRamp = true;
+      this.rowCount++;
+      this.patternTimer = GAP_RAMP_RECOVERY_SECONDS;
+      return;
+    }
     for (const lane of row.obstacles) this.addEntity("obstacle", lane);
     if (row.obstacles.length > 0) this.rowCount++;
     let spawnedRamp = false;
@@ -16605,7 +17248,7 @@ class ObstacleManager {
     const poolKey = kind === "obstacle" ? `obstacle:${this.stageDefinition.biome}:${variant}` : kind;
     const object = this.acquireEntity(kind, variant, poolKey);
     const z = this.spawnZ + zOffset;
-    const baseY = kind === "obstacle" ? 0.76 : kind === "ramp" ? 0.02 : 1.48;
+    const baseY = kind === "obstacle" ? 0.76 : kind === "ramp" || kind === "gapRamp" ? 0.02 : 1.48;
     object.position.set(lane * this.laneWidth + this.roadOffset(z), baseY + this.roadElevation(z), z);
     object.rotation.y = -this.roadHeading(z);
     this.scene.add(object);
@@ -16707,7 +17350,7 @@ class ObstacleManager {
       return pooled;
     }
     if (kind === "obstacle") return this.instantiateTemplate(this.getObstacleTemplate(variant));
-    if (kind === "ramp") return this.instantiateTemplate(this.getRampTemplate());
+    if (kind === "ramp" || kind === "gapRamp") return this.instantiateTemplate(this.getRampTemplate());
     return this.instantiateTemplate(this.getItemTemplate(kind));
   }
   instantiateTemplate(template) {
@@ -17239,6 +17882,21 @@ class ObstacleManager {
     arrow.rotation.x = -Math.PI / 2 + rampAngle;
     arrow.renderOrder = 2;
     group.add(arrow);
+    const arrowGlowMaterial = new THREE.MeshBasicMaterial({
+      map: arrowTexture,
+      color: new THREE.Color().setRGB(0.85, 2.6, 3.1),
+      transparent: true,
+      opacity: 0.36,
+      blending: THREE.AdditiveBlending,
+      depthWrite: false,
+      toneMapped: false
+    });
+    const arrowGlow = new THREE.Mesh(new THREE.PlaneGeometry(1.08, 1.64), arrowGlowMaterial);
+    arrowGlow.name = "ramp_arrow_glow";
+    arrowGlow.position.set(0, (entryHeight + launchHeight) / 2 + 0.088, -0.02);
+    arrowGlow.rotation.x = -Math.PI / 2 + rampAngle;
+    arrowGlow.renderOrder = 1;
+    group.add(arrowGlow);
     const lip = this.solidObstacle(new THREE.BoxGeometry(1.58, 0.18, 0.14), frame);
     lip.position.set(0, launchHeight + 0.02, -rampLength / 2 + 0.04);
     group.add(lip);
@@ -17482,11 +18140,12 @@ class ObstacleManager {
       if (radial.lengthSq() < 0.01) radial.set(Math.random() - 0.5, 0.7, Math.random() - 0.25);
       radial.normalize().multiplyScalar((violent ? 4.8 : 2.6) + Math.random() * (violent ? 4.2 : 2.2));
       radial.z -= violent ? 5.4 + Math.random() * 3.8 : 1.2 + Math.random() * 1.2;
+      radial.multiplyScalar(SHARD_SPEED_SCALE);
       this.shards.push({
         mesh,
         velocity: radial,
         spin: new THREE.Vector3(Math.random() * 12, Math.random() * 12, Math.random() * 12),
-        life: (violent ? 1.28 : 0.62) + Math.random() * (violent ? 0.55 : 0.42),
+        life: ((violent ? 1.28 : 0.62) + Math.random() * (violent ? 0.55 : 0.42)) * SHARD_LIFETIME_SCALE,
         roadCarry: violent ? 0.06 : 0.28,
         baseOpacity
       });
@@ -17511,9 +18170,9 @@ class ObstacleManager {
     this.scene.add(spring);
     this.shards.push({
       mesh: spring,
-      velocity: new THREE.Vector3((Math.random() - 0.5) * 3.2, violent ? 5.2 : 3.2, -3.2 - Math.random() * 2.2),
+      velocity: new THREE.Vector3((Math.random() - 0.5) * 3.2, violent ? 5.2 : 3.2, -3.2 - Math.random() * 2.2).multiplyScalar(SHARD_SPEED_SCALE),
       spin: new THREE.Vector3(7, 11, 5),
-      life: violent ? 1.55 : 0.9,
+      life: (violent ? 1.55 : 0.9) * SHARD_LIFETIME_SCALE,
       roadCarry: 0.08,
       baseOpacity: 1
     });
@@ -17661,6 +18320,8 @@ class ObstacleManager {
     this.spawnedOverdrive = false;
     this.lastPickupKind = null;
     this.samePickupStreak = 0;
+    this.gapRampRowTarget = Math.random() < 0.5 ? 9 : 18;
+    this.spawnedGapRamp = false;
     this.nextFireSide = -1;
     this.spawning = startSpawning;
   }
@@ -20565,6 +21226,9 @@ function createTwinRailVehicle() {
 const THRUSTER_PARTICLE_COUNT = 288;
 const THRUSTER_SPRAY_COUNT = 128;
 const CLEAR_EXIT_FORWARD_DISTANCE = 105;
+const CLEAR_EXIT_FADE_START = 0.72;
+const CLEAR_EXIT_EFFECTS_END = 0.985;
+const CLEAR_EXIT_VISIBLE_END = 0.992;
 const LANDING_REBOUND_TIME_SCALE = 0.9;
 class Player {
   constructor(scene) {
@@ -20988,8 +21652,8 @@ class Player {
     }
     const jumpActive = this.jumpHeight > 0 || this.jumpVelocity > 0;
     const ascentRatio = this.jumpInitialVelocity > 0 ? THREE.MathUtils.clamp(this.jumpVelocity / this.jumpInitialVelocity, 0, 1) : 0;
-    const airbornePitch = this.jumpLaunchPitch * THREE.MathUtils.lerp(0.58, 1, ascentRatio);
-    const targetPitch = jumpActive ? airbornePitch : -this.landingReboundOffset * 0.3;
+    const airbornePitch = this.jumpLaunchPitch * THREE.MathUtils.lerp(0.82, 1, ascentRatio);
+    const targetPitch = jumpActive ? airbornePitch : this.landingReboundOffset * 0.34;
     this.mesh.rotation.x = THREE.MathUtils.damp(this.mesh.rotation.x, targetPitch, jumpActive ? 7.5 : 12.5, delta);
     this.vehicleRoot.position.y = Math.sin(this.elapsedTime * 3.4) * 0.018 + this.landingReboundOffset;
     const pulse = 0.82 + Math.sin(this.elapsedTime * (this.boosted ? 15 : 9)) * 0.18;
@@ -21001,7 +21665,7 @@ class Player {
       }
     }
     this.updateThrusterEffects(delta, pulse);
-    const exitEffectsVisible = this.clearExitProgress < 0.9;
+    const exitEffectsVisible = this.clearExitProgress < CLEAR_EXIT_EFFECTS_END;
     this.boostGlow.visible = this.boosted && this.boostStrength > 0.02 && exitEffectsVisible;
     this.boostGlowMaterial.opacity = (0.08 + pulse * 0.065) * this.boostStrength;
     this.boostGlow.scale.setScalar(1.034 + pulse * 0.014);
@@ -21034,7 +21698,7 @@ class Player {
   }
   updateThrusterEffects(delta, pulse) {
     var _a;
-    const effectsVisible = this.clearExitProgress < 0.9;
+    const effectsVisible = this.clearExitProgress < CLEAR_EXIT_EFFECTS_END;
     this.thrusterTrail.visible = effectsVisible;
     this.thrusterSpray.visible = effectsVisible;
     for (const glow of this.thrusterGlows) glow.visible = effectsVisible;
@@ -21201,17 +21865,17 @@ class Player {
   getSteeringLoad() {
     return THREE.MathUtils.clamp(Math.abs(this.lateralVelocity) / 8, 0, 1);
   }
-  jump(boosted = false, entrySpeedRatio = 1) {
+  jump(boosted = false, entrySpeedRatio = 1, extended = false) {
     if (this.jumpHeight > 0.05 || this.jumpVelocity > 0) return false;
     this.jumpHeight = 0.02;
     this.jumpPeakHeight = this.jumpHeight;
     this.jumpAirTime = 0;
     this.boostedJump = boosted;
-    this.jumpVelocity = boosted ? 9.1 : 7.2;
+    this.jumpVelocity = boosted ? extended ? 9.7 : 9.1 : extended ? 8.15 : 7.2;
     this.jumpInitialVelocity = this.jumpVelocity;
-    this.jumpGravity = boosted ? 7.6 : 8.8;
+    this.jumpGravity = boosted ? extended ? 7.2 : 7.6 : extended ? 8 : 8.8;
     const speedPitch = THREE.MathUtils.clamp((entrySpeedRatio - 0.75) / 0.85, 0, 1);
-    this.jumpLaunchPitch = THREE.MathUtils.lerp(0.2, 0.36, speedPitch);
+    this.jumpLaunchPitch = THREE.MathUtils.lerp(0.2, 0.36, speedPitch) + (extended ? 0.035 : 0);
     return true;
   }
   isAirborne() {
@@ -21250,12 +21914,12 @@ class Player {
   setClearExit(progress, roadOffset) {
     this.clearExitProgress = progress;
     const eased = progress * progress * (3 - 2 * progress);
-    const fade = THREE.MathUtils.smoothstep(progress, 0.62, 0.96);
+    const fade = THREE.MathUtils.smoothstep(progress, CLEAR_EXIT_FADE_START, CLEAR_EXIT_EFFECTS_END);
     this.mesh.position.z = -eased * CLEAR_EXIT_FORWARD_DISTANCE;
     this.clearRoadOffset = roadOffset(this.mesh.position.z);
     this.mesh.position.x = this.targetX + this.clearRoadOffset;
     this.mesh.scale.setScalar(THREE.MathUtils.lerp(1, 0.08, fade));
-    this.mesh.visible = progress < 0.97;
+    this.mesh.visible = progress < CLEAR_EXIT_VISIBLE_END;
   }
   setInvulnerable(value) {
     this.invulnerable = value;
@@ -21264,7 +21928,7 @@ class Player {
   setBoosted(value, strength = value ? 1 : 0) {
     this.boostStrength = THREE.MathUtils.clamp(strength, 0, 1);
     this.boosted = value && this.boostStrength > 0.02;
-    this.boostGlow.visible = this.boosted && this.clearExitProgress < 0.9;
+    this.boostGlow.visible = this.boosted && this.clearExitProgress < CLEAR_EXIT_EFFECTS_END;
   }
   reset() {
     this.currentLane = 0;
@@ -22128,6 +22792,7 @@ class Game {
     __publicField(this, "gameplayCameraTarget", new THREE.Vector3(0, 0, -9.6));
     __publicField(this, "cameraTarget", this.previewCameraTarget.clone());
     __publicField(this, "cameraFollowX", 0);
+    __publicField(this, "clearCameraAnchorX", 0);
     __publicField(this, "cameraViewBlend", 0);
     __publicField(this, "previewCameraTime", 0);
     __publicField(this, "heldDirection", 0);
@@ -22413,7 +23078,8 @@ class Game {
       this.environment.getRoadOffset,
       this.environment.getRoadHeading,
       this.environment.hitRoadside,
-      this.environment.getRoadElevation
+      this.environment.getRoadElevation,
+      this.environment.scheduleJumpGap
     );
     this.obstacleManager.configureStage(this.stageDefinition);
     this.obstacleManager.setSpawning(false);
@@ -22541,10 +23207,10 @@ class Game {
       this.messageTime = 1.2;
       return;
     }
-    if (event === "ramp") {
+    if (event === "ramp" || event === "gapRamp") {
       const boostedJump = this.overdriveTime > 0;
       const entrySpeedRatio = this.currentSpeed / Math.max(1, this.stageDefinition.cruiseSpeed);
-      if (!this.player.jump(boostedJump, entrySpeedRatio)) return;
+      if (!this.player.jump(boostedJump, entrySpeedRatio, event === "gapRamp")) return;
       this.rampLaunchSpeed = this.currentSpeed * RAMP_SPEED_MULTIPLIER;
       this.currentSpeed = this.rampLaunchSpeed;
       this.currentAirtime = 0;
@@ -22604,10 +23270,10 @@ class Game {
     } else {
       this.hemisphereLight.color.setHex(night ? 13230309 : 16777215);
       this.hemisphereLight.groundColor.setHex(night ? 2636099 : 6582658);
-      this.hemisphereLight.intensity = night ? 3.4 : 2.5;
+      this.hemisphereLight.intensity = night ? 3 : 2.5;
       this.keyLight.color.setHex(night ? 14873846 : 16777215);
-      this.keyLight.intensity = night ? 2.8 : sunset ? 2.35 : 2.1;
-      this.renderer.toneMappingExposure = night ? 1.22 : 1.05;
+      this.keyLight.intensity = night ? 2.5 : sunset ? 2.35 : 2.1;
+      this.renderer.toneMappingExposure = night ? 1.14 : 1.05;
     }
     this.applyWeather(weather);
   }
@@ -22641,6 +23307,7 @@ class Game {
     this.clearTimer = 0;
     this.clearExitProgress = 0;
     this.clearExitStartSpeed = this.currentSpeed;
+    this.clearCameraAnchorX = this.cameraFollowX;
     this.heldDirection = 0;
     this.heldMoveTimer = 0;
     this.heldPointerId = null;
@@ -22698,6 +23365,7 @@ class Game {
       clearTimer: 0,
       clearExitProgress: 0,
       clearExitStartSpeed: 55,
+      clearCameraAnchorX: 0,
       boostLaunchTime: 0,
       rampLaunchSpeed: 0,
       clearEngineTailTime: 0,
@@ -22739,6 +23407,7 @@ class Game {
       clearTimer: 0,
       clearExitProgress: 0,
       clearExitStartSpeed: 55,
+      clearCameraAnchorX: 0,
       boostLaunchTime: 0,
       rampLaunchSpeed: 0,
       clearEngineTailTime: 0,
@@ -22794,7 +23463,8 @@ class Game {
       this.camera.fov = nextFov;
       this.camera.updateProjectionMatrix();
     }
-    this.cameraFollowX = THREE.MathUtils.damp(this.cameraFollowX, this.player.getX(), 7.5, delta);
+    const cameraFollowTarget = this.status === "clearing" || this.status === "cleared" ? this.clearCameraAnchorX : this.player.getX();
+    this.cameraFollowX = THREE.MathUtils.damp(this.cameraFollowX, cameraFollowTarget, 7.5, delta);
     this.camera.position.copy(this.previewCameraPosition).lerp(this.gameplayCameraPosition, this.cameraViewBlend);
     const jumpHeight = this.player.getJumpHeight();
     const landingRebound = this.player.getLandingReboundOffset();
@@ -22834,7 +23504,8 @@ class Game {
   }
   publishSnapshot() {
     let effect = "NONE";
-    if (this.overdriveTime > 0) effect = "BOOST ON";
+    if (this.overdriveTime > 0 && this.weaponTime > 0) effect = "BOOST + FIRE";
+    else if (this.overdriveTime > 0) effect = "BOOST ON";
     else if (this.weaponTime > 0) effect = "TWIN FIRE";
     else if (this.scoreMultiplierTime > 0) effect = "DOUBLE SCORE";
     else if (this.message === "REPAIRED" && this.messageTime > 0) effect = "REPAIR";
