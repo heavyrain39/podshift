@@ -12901,26 +12901,26 @@ const PATTERNS = [
   }
 ];
 const STAGE_DEFINITIONS = [
-  { stage: 1, duration: 60, cruiseSpeed: 52, overdriveSpeed: 74, rowCadence: 1.68, patternGap: 1.55, pickupBudget: 8, threeStarScore: 18e3, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["single-check", "open-gate"] },
-  { stage: 2, duration: 60, cruiseSpeed: 53, overdriveSpeed: 75, rowCadence: 1.66, patternGap: 1.5, pickupBudget: 8, threeStarScore: 19500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["single-check", "open-gate", "soft-slalom"] },
-  { stage: 3, duration: 60, cruiseSpeed: 54, overdriveSpeed: 76, rowCadence: 1.64, patternGap: 1.45, pickupBudget: 9, threeStarScore: 21500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["open-gate", "soft-slalom", "reward-detour"] },
-  { stage: 4, duration: 60, cruiseSpeed: 55, overdriveSpeed: 77, rowCadence: 1.62, patternGap: 1.4, pickupBudget: 9, threeStarScore: 23500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["soft-slalom", "reward-detour", "switchback"] },
-  { stage: 5, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.6, patternGap: 1.35, pickupBudget: 10, threeStarScore: 26e3, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["reward-detour", "switchback", "weapon-line"] },
-  { stage: 6, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 27e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
-  { stage: 7, duration: 60, cruiseSpeed: 59, overdriveSpeed: 82, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 3e4, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
-  { stage: 8, duration: 60, cruiseSpeed: 61, overdriveSpeed: 85, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 33e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["switchback", "risk-reward", "long-weave"] },
-  { stage: 9, duration: 60, cruiseSpeed: 63, overdriveSpeed: 88, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 36500, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
-  { stage: 10, duration: 60, cruiseSpeed: 65, overdriveSpeed: 90, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 4e4, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] },
-  { stage: 11, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 27e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
-  { stage: 12, duration: 60, cruiseSpeed: 59, overdriveSpeed: 82, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 3e4, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
-  { stage: 13, duration: 60, cruiseSpeed: 61, overdriveSpeed: 85, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 33e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "risk-reward", "long-weave"] },
-  { stage: 14, duration: 60, cruiseSpeed: 63, overdriveSpeed: 88, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 36500, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
-  { stage: 15, duration: 60, cruiseSpeed: 65, overdriveSpeed: 90, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 4e4, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] },
-  { stage: 16, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 27e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
-  { stage: 17, duration: 60, cruiseSpeed: 59, overdriveSpeed: 82, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 3e4, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
-  { stage: 18, duration: 60, cruiseSpeed: 61, overdriveSpeed: 85, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 33e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "risk-reward", "long-weave"] },
-  { stage: 19, duration: 60, cruiseSpeed: 63, overdriveSpeed: 88, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 36500, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
-  { stage: 20, duration: 60, cruiseSpeed: 65, overdriveSpeed: 90, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 4e4, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] }
+  { stage: 1, duration: 60, cruiseSpeed: 52, overdriveSpeed: 74, rowCadence: 1.68, patternGap: 1.55, pickupBudget: 8, threeStarScore: 2e4, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["single-check", "open-gate"] },
+  { stage: 2, duration: 60, cruiseSpeed: 53, overdriveSpeed: 75, rowCadence: 1.66, patternGap: 1.5, pickupBudget: 8, threeStarScore: 21500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["single-check", "open-gate", "soft-slalom"] },
+  { stage: 3, duration: 60, cruiseSpeed: 54, overdriveSpeed: 76, rowCadence: 1.64, patternGap: 1.45, pickupBudget: 9, threeStarScore: 23500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["open-gate", "soft-slalom", "reward-detour"] },
+  { stage: 4, duration: 60, cruiseSpeed: 55, overdriveSpeed: 77, rowCadence: 1.62, patternGap: 1.4, pickupBudget: 9, threeStarScore: 25500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["soft-slalom", "reward-detour", "switchback"] },
+  { stage: 5, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.6, patternGap: 1.35, pickupBudget: 10, threeStarScore: 28e3, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["reward-detour", "switchback", "weapon-line"] },
+  { stage: 6, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 29e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
+  { stage: 7, duration: 60, cruiseSpeed: 59, overdriveSpeed: 82, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 32e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
+  { stage: 8, duration: 60, cruiseSpeed: 61, overdriveSpeed: 85, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 35e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["switchback", "risk-reward", "long-weave"] },
+  { stage: 9, duration: 60, cruiseSpeed: 63, overdriveSpeed: 88, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 38500, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
+  { stage: 10, duration: 60, cruiseSpeed: 65, overdriveSpeed: 90, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 42e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] },
+  { stage: 11, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 29e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
+  { stage: 12, duration: 60, cruiseSpeed: 59, overdriveSpeed: 82, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 32e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
+  { stage: 13, duration: 60, cruiseSpeed: 61, overdriveSpeed: 85, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 35e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "risk-reward", "long-weave"] },
+  { stage: 14, duration: 60, cruiseSpeed: 63, overdriveSpeed: 88, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 38500, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
+  { stage: 15, duration: 60, cruiseSpeed: 65, overdriveSpeed: 90, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 42e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] },
+  { stage: 16, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 29e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
+  { stage: 17, duration: 60, cruiseSpeed: 59, overdriveSpeed: 82, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 32e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
+  { stage: 18, duration: 60, cruiseSpeed: 61, overdriveSpeed: 85, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 35e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "risk-reward", "long-weave"] },
+  { stage: 19, duration: 60, cruiseSpeed: 63, overdriveSpeed: 88, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 38500, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
+  { stage: 20, duration: 60, cruiseSpeed: 65, overdriveSpeed: 90, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 42e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] }
 ];
 const STAGE_BACKGROUNDS = [
   { name: "DAY CITY", startStage: 1, endStage: 5 },
@@ -13029,8 +13029,7 @@ function MainMenu({ savedRun, profile, preview, settings, onContinue, onStart, o
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mb-4 border-b border-[#25282d]/25 pb-2", children: /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-[14px] font-black tracking-[0.18em]", children: "CREDITS" }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-5 py-4", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(CreditLine, { role: "CREATED BY", name: "YACHAWAN", href: "https://heavyrain39.github.io/portfolio/" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(CreditLine, { role: "VEHICLE", name: "AT-01 TWINBURN" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(CreditLine, { role: "PROTOTYPE DEVELOPMENT", name: "OPENAI CODEX" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CreditLine, { role: "VEHICLE", name: "AT-01 TWINBURN" })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: BUTTON_CLASS, onClick: () => setView("main"), children: "BACK" })
       ] }),
@@ -13091,13 +13090,13 @@ function VolumeControl({ icon, label, value, onChange }) {
 function CreditLine({ role, name, href }) {
   const content = /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-mono text-[8px] font-bold tracking-[0.18em] text-[#25282d]/50", children: role }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-1 flex items-baseline gap-2 text-lg font-black tracking-[-0.02em]", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-1 flex items-baseline gap-1.5 text-lg font-black tracking-[-0.02em]", children: [
       name,
-      href && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-mono text-[8px] tracking-[0.12em] text-[#0a9db1]", children: "PORTFOLIO ↗" })
+      href && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-mono text-[10px] text-[#25282d]/40 transition-colors group-hover:text-[#0a9db1]", children: "↗" })
     ] })
   ] });
   if (!href) return content;
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("a", { className: "block transition-colors hover:text-[#0a9db1]", href, target: "_blank", rel: "noreferrer", children: content });
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("a", { className: "group block transition-colors hover:text-[#0a9db1]", href, target: "_blank", rel: "noreferrer", children: content });
 }
 const ROUTE_NODES = [
   [42, 392],
@@ -13318,7 +13317,7 @@ function ResultPanel({ snapshot, previousBestStars, previousBestScore, onExit, o
   const scoreRows = [
     { label: "DRIVE SCORE", value: snapshot.scoreBreakdown.drive },
     { label: "WRECK BONUS", value: snapshot.scoreBreakdown.wreck },
-    { label: "AIRBORNE BONUS", value: snapshot.scoreBreakdown.airborne },
+    { label: "AIRTIME BONUS", value: snapshot.scoreBreakdown.airborne },
     { label: "PICKUP BONUS", value: snapshot.scoreBreakdown.pickup },
     { label: "x2 BONUS", value: snapshot.scoreBreakdown.multiplier },
     { label: "IMPACT PENALTY", value: snapshot.scoreBreakdown.impactPenalty }
@@ -13398,8 +13397,12 @@ function ResultPanel({ snapshot, previousBestStars, previousBestScore, onExit, o
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "result-stat", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(PlaneTakeoff, {}),
             /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("small", { children: "AIRBORNE" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: animatedValue(snapshot.airborneCount, 1).toString().padStart(2, "0") })
+              /* @__PURE__ */ jsxRuntimeExports.jsx("small", { children: "AIRTIME" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("strong", { children: [
+                (animatedValue(snapshot.airtime * 100, 1) / 100).toFixed(2),
+                " ",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("em", { children: "S" })
+              ] })
             ] })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "result-stat", children: [
@@ -13433,7 +13436,7 @@ function ResultPanel({ snapshot, previousBestStars, previousBestScore, onExit, o
           snapshot.scoreBreakdown.drive,
           ", wreck ",
           snapshot.scoreBreakdown.wreck,
-          ", airborne ",
+          ", airtime ",
           snapshot.scoreBreakdown.airborne,
           ", pickup ",
           snapshot.scoreBreakdown.pickup,
@@ -13532,6 +13535,18 @@ function UIOverlay({ snapshot, previousBestStars, previousBestScore, onExit, onR
       },
       `${snapshot.status}-${snapshot.message}`
     ),
+    snapshot.airtimeActive && !isTerminal && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "airtime-counter absolute bottom-[104px] right-4 text-right font-mono text-[#20cfe1]", "aria-hidden": "true", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-[8px] font-black tracking-[0.2em]", children: [
+        "AIRTIME ",
+        snapshot.currentAirtime.toFixed(2),
+        "s",
+        isDoubleScore ? " // x2" : ""
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-2xl font-black italic leading-none tabular-nums", children: [
+        "+",
+        snapshot.currentAirtimeScore.toString().padStart(4, "0")
+      ] })
+    ] }),
     isTerminal && /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
       isCleared && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "clear-impact-flash absolute inset-0" }),
       isCleared && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "clear-impact-ring absolute left-1/2 top-1/2" }),
@@ -15136,8 +15151,19 @@ const RAIN_STREAK_COUNT = 220;
 const SNOW_PARTICLE_COUNT = 220;
 const RAIN_RIPPLE_COUNT = 56;
 const STREETLIGHT_COUNT = 16;
-const ROAD_ANCHOR_LENGTH = 58;
-const ROAD_CENTER_ANCHORS = [0, 0, 0, 3.4, -2.8, 2.5, 0.4, 0.4, 0.4, -3.5, 2.9, -1.8];
+const MAX_ROAD_HEADING = 0.115;
+const ROAD_PATTERN_RECIPES = [
+  { id: "left-bend", length: 72, headingPoints: [[0, 0], [0.58, 0.07], [1, 0.07]] },
+  { id: "right-bend", length: 72, headingPoints: [[0, 0], [0.58, -0.07], [1, -0.07]] },
+  { id: "left-sweep", length: 92, headingPoints: [[0, 0], [0.72, 0.085], [1, 0.085]] },
+  { id: "right-sweep", length: 92, headingPoints: [[0, 0], [0.72, -0.085], [1, -0.085]] },
+  { id: "left-then-ease", length: 118, headingPoints: [[0, 0], [0.33, 0.065], [0.62, 0.065], [0.86, 0.025], [1, 0.025]] },
+  { id: "right-then-ease", length: 118, headingPoints: [[0, 0], [0.33, -0.065], [0.62, -0.065], [0.86, -0.025], [1, -0.025]] },
+  { id: "left-double-bend", length: 112, headingPoints: [[0, 0], [0.28, 0.035], [0.48, 0.035], [0.78, 0.07], [1, 0.07]] },
+  { id: "right-double-bend", length: 112, headingPoints: [[0, 0], [0.28, -0.035], [0.48, -0.035], [0.78, -0.07], [1, -0.07]] },
+  { id: "hold-heading", length: 62, headingPoints: [[0, 0], [1, 0]] }
+];
+const easeRoadPoint = (value) => value * value * (3 - 2 * value);
 const CITY_LAYOUTS = [
   [[0, 0], [3, 3], [1, 2], [11, 11], [5, 4], [3, 3], [2, 1], [0, 0], [9, 10], [3, 3], [6, 8], [11, 11]],
   [[11, 11], [3, 3], [2, 2], [0, 0], [4, 5], [3, 3], [1, 1], [11, 11], [10, 9], [3, 3], [8, 6], [0, 0]],
@@ -15175,6 +15201,13 @@ class Environment {
     __publicField(this, "streetLightPoolTexture", this.createStreetLightPoolTexture());
     __publicField(this, "distance", 0);
     __publicField(this, "weatherElapsed", 0);
+    __publicField(this, "roadPatternSegments", []);
+    __publicField(this, "roadPatternBag", []);
+    __publicField(this, "roadPatternEnd", 0);
+    __publicField(this, "roadPatternCenter", 0);
+    __publicField(this, "roadPatternHeading", 0);
+    __publicField(this, "lastRoadPatternId", "");
+    __publicField(this, "finishRoute", null);
     __publicField(this, "segmentLength", 2);
     __publicField(this, "segmentCount", 72);
     __publicField(this, "rearRoadExtent", 16);
@@ -15249,6 +15282,7 @@ class Environment {
       return nearest;
     });
     this.scene = scene;
+    this.resetRoadRoute();
     scene.fog = new THREE.Fog(15855336, 24, 92);
     for (let index = 0; index < this.segmentCount; index++) {
       const segment = this.createRoadSegment(index % 2 === 0);
@@ -15265,14 +15299,132 @@ class Environment {
     this.createRainRipples();
     this.setWeather("clear");
   }
+  resetRoadRoute() {
+    this.finishRoute = null;
+    this.roadPatternSegments = [];
+    this.roadPatternBag = [];
+    this.lastRoadPatternId = "";
+    this.roadPatternEnd = this.distance - 80;
+    this.roadPatternCenter = 0;
+    this.roadPatternHeading = 0;
+    this.ensureRoadPatternCoverage(this.distance + 240);
+  }
+  beginFinishRoute() {
+    if (this.finishRoute) return;
+    const halfStep = 0.5;
+    const center = this.getProceduralRoadCenter(this.distance);
+    const slope = (this.getProceduralRoadCenter(this.distance + halfStep) - this.getProceduralRoadCenter(this.distance - halfStep)) / (halfStep * 2);
+    this.finishRoute = {
+      start: this.distance,
+      center,
+      slope: THREE.MathUtils.clamp(slope, -0.12, 0.12)
+    };
+  }
+  patternFitsHeading(recipe, startHeading) {
+    return recipe.headingPoints.every(([, delta]) => Math.abs(startHeading + delta) <= MAX_ROAD_HEADING);
+  }
+  takeRoadPattern(startHeading) {
+    var _a;
+    if (this.roadPatternBag.length === 0) {
+      this.roadPatternBag = [...ROAD_PATTERN_RECIPES];
+      for (let index = this.roadPatternBag.length - 1; index > 0; index--) {
+        const swapIndex = Math.floor(Math.random() * (index + 1));
+        [this.roadPatternBag[index], this.roadPatternBag[swapIndex]] = [this.roadPatternBag[swapIndex], this.roadPatternBag[index]];
+      }
+      const nextIndex = this.roadPatternBag.length - 1;
+      if (((_a = this.roadPatternBag[nextIndex]) == null ? void 0 : _a.id) === this.lastRoadPatternId) {
+        [this.roadPatternBag[nextIndex], this.roadPatternBag[0]] = [this.roadPatternBag[0], this.roadPatternBag[nextIndex]];
+      }
+    }
+    for (let index = this.roadPatternBag.length - 1; index >= 0; index--) {
+      const recipe = this.roadPatternBag[index];
+      if (!this.patternFitsHeading(recipe, startHeading)) continue;
+      this.roadPatternBag.splice(index, 1);
+      this.lastRoadPatternId = recipe.id;
+      return recipe;
+    }
+    const fallbackId = startHeading > 0 ? "right-bend" : "left-bend";
+    const fallback = ROAD_PATTERN_RECIPES.find(({ id }) => id === fallbackId) ?? ROAD_PATTERN_RECIPES[8];
+    const bagIndex = this.roadPatternBag.findIndex(({ id }) => id === fallback.id);
+    if (bagIndex >= 0) this.roadPatternBag.splice(bagIndex, 1);
+    this.lastRoadPatternId = fallback.id;
+    return fallback;
+  }
+  getPatternHeading(recipe, startHeading, progress) {
+    const points = recipe.headingPoints;
+    for (let index = 1; index < points.length; index++) {
+      const previous = points[index - 1];
+      const next = points[index];
+      if (progress > next[0]) continue;
+      const span = Math.max(1e-4, next[0] - previous[0]);
+      const localProgress = easeRoadPoint((progress - previous[0]) / span);
+      const delta = THREE.MathUtils.lerp(previous[1], next[1], localProgress);
+      return startHeading + delta;
+    }
+    return startHeading + points[points.length - 1][1];
+  }
+  ensureRoadPatternCoverage(sample) {
+    while (this.roadPatternEnd < sample) {
+      const recipe = this.takeRoadPattern(this.roadPatternHeading);
+      const length = recipe.length * (0.92 + Math.random() * 0.16);
+      const sampleCount = Math.ceil(length);
+      const sampleStep = length / sampleCount;
+      const centerSamples = [this.roadPatternCenter];
+      let center = this.roadPatternCenter;
+      for (let index = 1; index <= sampleCount; index++) {
+        const previousProgress = (index - 1) / sampleCount;
+        const progress = index / sampleCount;
+        const previousHeading = this.getPatternHeading(recipe, this.roadPatternHeading, previousProgress);
+        const heading = this.getPatternHeading(recipe, this.roadPatternHeading, progress);
+        center += (Math.tan(previousHeading) + Math.tan(heading)) * 0.5 * sampleStep;
+        centerSamples.push(center);
+      }
+      const endHeading = this.getPatternHeading(recipe, this.roadPatternHeading, 1);
+      const segment = {
+        start: this.roadPatternEnd,
+        end: this.roadPatternEnd + length,
+        centerSamples,
+        sampleStep
+      };
+      this.roadPatternSegments.push(segment);
+      this.roadPatternEnd = segment.end;
+      this.roadPatternCenter = center;
+      this.roadPatternHeading = endHeading;
+    }
+  }
+  sampleRoadPattern(segment, sample) {
+    const localDistance = THREE.MathUtils.clamp(sample - segment.start, 0, segment.end - segment.start);
+    const index = Math.min(
+      segment.centerSamples.length - 2,
+      Math.floor(localDistance / segment.sampleStep)
+    );
+    const progress = THREE.MathUtils.clamp(
+      (localDistance - index * segment.sampleStep) / segment.sampleStep,
+      0,
+      1
+    );
+    return THREE.MathUtils.lerp(segment.centerSamples[index], segment.centerSamples[index + 1], progress);
+  }
+  getProceduralRoadCenter(sample) {
+    var _a;
+    this.ensureRoadPatternCoverage(sample + 1);
+    const segment = this.roadPatternSegments.find(({ start, end }) => sample >= start && sample <= end);
+    if (segment) return this.sampleRoadPattern(segment, sample);
+    return ((_a = this.roadPatternSegments[0]) == null ? void 0 : _a.centerSamples[0]) ?? 0;
+  }
+  getFinishRoadOffset(distance) {
+    const straightLength = 24;
+    const sLength = 176;
+    if (distance <= straightLength || distance >= straightLength + sLength) return 0;
+    const progress = (distance - straightLength) / sLength;
+    return Math.pow(Math.sin(progress * Math.PI * 2), 3) * 2.8;
+  }
   getRoadCenter(sample) {
-    const anchorPosition = sample / ROAD_ANCHOR_LENGTH;
-    const anchorIndex = Math.floor(anchorPosition);
-    const progress = anchorPosition - anchorIndex;
-    const current = ROAD_CENTER_ANCHORS[(anchorIndex % ROAD_CENTER_ANCHORS.length + ROAD_CENTER_ANCHORS.length) % ROAD_CENTER_ANCHORS.length];
-    const next = ROAD_CENTER_ANCHORS[((anchorIndex + 1) % ROAD_CENTER_ANCHORS.length + ROAD_CENTER_ANCHORS.length) % ROAD_CENTER_ANCHORS.length];
-    const eased = progress * progress * (3 - 2 * progress);
-    return THREE.MathUtils.lerp(current, next, eased);
+    if (this.finishRoute && sample >= this.finishRoute.start) {
+      const distance = sample - this.finishRoute.start;
+      return this.finishRoute.center + this.finishRoute.slope * distance + this.getFinishRoadOffset(distance);
+    }
+    return this.getProceduralRoadCenter(sample);
   }
   createRoadSegment(hasDividerDash) {
     const group = new THREE.Group();
@@ -16103,6 +16255,10 @@ class ObstacleManager {
     __publicField(this, "stageDefinition", getStageDefinition(1));
     __publicField(this, "remainingPickupBudget", this.stageDefinition.pickupBudget);
     __publicField(this, "rowCount", 0);
+    __publicField(this, "pickupSpawnCount", 0);
+    __publicField(this, "spawnedOverdrive", false);
+    __publicField(this, "lastPickupKind", null);
+    __publicField(this, "samePickupStreak", 0);
     __publicField(this, "spawning", true);
     __publicField(this, "nextFireSide", -1);
     __publicField(this, "scene");
@@ -16163,6 +16319,10 @@ class ObstacleManager {
     this.remainingPickupBudget = definition.pickupBudget;
     this.pendingRows = [];
     this.recentPatternIds = [];
+    this.pickupSpawnCount = 0;
+    this.spawnedOverdrive = false;
+    this.lastPickupKind = null;
+    this.samePickupStreak = 0;
   }
   update(delta, speed, playerX, canSmash, allowRepair, allowDoubleScore, allowWeapon, previousPlayerX = playerX, scoreMultiplier = 1, playerAirborne = false, playerZ = 0, previousPlayerZ = playerZ, showScorePopups = true) {
     const events = [];
@@ -16292,8 +16452,36 @@ class ObstacleManager {
     if (allowRepair) available.push("repair");
     if (allowDoubleScore) available.push("doubleScore");
     if (allowWeapon) available.push("weapon", "weapon");
-    if (requested !== "adaptive" && available.includes(requested)) return requested;
-    return available[Math.floor(Math.random() * available.length)];
+    let selected;
+    if (!this.spawnedOverdrive && this.pickupSpawnCount >= 2) {
+      selected = "overdrive";
+    } else if (requested !== "adaptive" && available.includes(requested)) {
+      selected = requested;
+    } else {
+      const repeatWeight = Math.pow(0.8, this.samePickupStreak);
+      const weighted = available.map((kind) => ({
+        kind,
+        weight: kind === this.lastPickupKind ? repeatWeight : 1
+      }));
+      const totalWeight = weighted.reduce((total, entry) => total + entry.weight, 0);
+      let roll = Math.random() * totalWeight;
+      selected = weighted[weighted.length - 1].kind;
+      for (const entry of weighted) {
+        roll -= entry.weight;
+        if (roll <= 0) {
+          selected = entry.kind;
+          break;
+        }
+      }
+    }
+    this.pickupSpawnCount++;
+    this.spawnedOverdrive || (this.spawnedOverdrive = selected === "overdrive");
+    if (selected === this.lastPickupKind) this.samePickupStreak++;
+    else {
+      this.lastPickupKind = selected;
+      this.samePickupStreak = 1;
+    }
+    return selected;
   }
   addEntity(kind, lane, zOffset = 0) {
     const variant = this.rowCount % 5;
@@ -17345,6 +17533,10 @@ class ObstacleManager {
     this.recentPatternIds = [];
     this.remainingPickupBudget = this.stageDefinition.pickupBudget;
     this.rowCount = 0;
+    this.pickupSpawnCount = 0;
+    this.spawnedOverdrive = false;
+    this.lastPickupKind = null;
+    this.samePickupStreak = 0;
     this.nextFireSide = -1;
     this.spawning = startSpawning;
   }
@@ -20246,8 +20438,8 @@ function createTwinRailVehicle() {
     thrusterMaterials: [leftThrusterMaterial, rightThrusterMaterial]
   };
 }
-const THRUSTER_PARTICLE_COUNT = 192;
-const THRUSTER_SPRAY_COUNT = 80;
+const THRUSTER_PARTICLE_COUNT = 288;
+const THRUSTER_SPRAY_COUNT = 128;
 class Player {
   constructor(scene) {
     __publicField(this, "mesh");
@@ -20300,6 +20492,8 @@ class Player {
     __publicField(this, "jumpVelocity", 0);
     __publicField(this, "jumpGravity", 9.4);
     __publicField(this, "jumpPeakHeight", 0);
+    __publicField(this, "jumpInitialVelocity", 0);
+    __publicField(this, "jumpLaunchPitch", 0);
     __publicField(this, "boostedJump", false);
     __publicField(this, "landedFromBoost", false);
     __publicField(this, "landingImpactStrength", 0);
@@ -20325,12 +20519,13 @@ class Player {
     __publicField(this, "thrusterTrailColors", new Float32Array(THRUSTER_PARTICLE_COUNT * 3));
     __publicField(this, "thrusterTrailAges", new Float32Array(THRUSTER_PARTICLE_COUNT));
     __publicField(this, "thrusterTrailLifetimes", new Float32Array(THRUSTER_PARTICLE_COUNT));
+    __publicField(this, "thrusterTrailTurbulence", new Float32Array(THRUSTER_PARTICLE_COUNT * 3));
     __publicField(this, "thrusterSpray");
     __publicField(this, "thrusterSprayMaterial");
     __publicField(this, "thrusterSprayPositions", new Float32Array(THRUSTER_SPRAY_COUNT * 3));
     __publicField(this, "thrusterSprayColors", new Float32Array(THRUSTER_SPRAY_COUNT * 3));
     __publicField(this, "trailCursor", 0);
-    __publicField(this, "trailEmissionAccumulator", 0);
+    __publicField(this, "trailEmissionAccumulators", [0.18, 0.72]);
     __publicField(this, "rearDirection", new THREE.Vector3());
     __publicField(this, "sideDirection", new THREE.Vector3());
     __publicField(this, "thrusterSocketPositions", [new THREE.Vector3(), new THREE.Vector3()]);
@@ -20660,7 +20855,11 @@ class Player {
       const dampingEnvelope = Math.exp(-this.landingReboundDamping * reboundElapsed);
       this.landingReboundOffset = -this.landingReboundAmplitude * dampingEnvelope * Math.sin(this.landingReboundAngularFrequency * reboundElapsed);
     }
-    this.mesh.rotation.x = THREE.MathUtils.damp(this.mesh.rotation.x, -this.landingReboundOffset * 0.2, 9, delta);
+    const jumpActive = this.jumpHeight > 0 || this.jumpVelocity > 0;
+    const ascentRatio = this.jumpInitialVelocity > 0 ? THREE.MathUtils.clamp(this.jumpVelocity / this.jumpInitialVelocity, 0, 1) : 0;
+    const airbornePitch = this.jumpLaunchPitch * THREE.MathUtils.lerp(0.58, 1, ascentRatio);
+    const targetPitch = jumpActive ? airbornePitch : -this.landingReboundOffset * 0.2;
+    this.mesh.rotation.x = THREE.MathUtils.damp(this.mesh.rotation.x, targetPitch, jumpActive ? 7.5 : 9, delta);
     this.vehicleRoot.position.y = Math.sin(this.elapsedTime * 3.4) * 0.018 + this.landingReboundOffset;
     const pulse = 0.82 + Math.sin(this.elapsedTime * (this.boosted ? 15 : 9)) * 0.18;
     for (const material of this.thrusterMaterials) {
@@ -20728,10 +20927,13 @@ class Player {
       this.thrusterGlows[index].scale.setScalar(glowScale);
       this.thrusterGlows[index].material.opacity = this.boosted ? 0.96 : 0.68;
     }
-    this.trailEmissionAccumulator += delta * (this.boosted ? 96 : 38);
-    while (this.trailEmissionAccumulator >= 1) {
-      for (const socketPosition of socketPositions) this.spawnThrusterParticle(socketPosition, rearDirection);
-      this.trailEmissionAccumulator -= 1;
+    const emissionRate = this.boosted ? 112 : 44;
+    for (let thrusterIndex = 0; thrusterIndex < socketPositions.length; thrusterIndex++) {
+      this.trailEmissionAccumulators[thrusterIndex] += delta * emissionRate * (thrusterIndex === 0 ? 0.93 : 1.07);
+      while (this.trailEmissionAccumulators[thrusterIndex] >= 1) {
+        this.spawnThrusterParticle(socketPositions[thrusterIndex], rearDirection, thrusterIndex);
+        this.trailEmissionAccumulators[thrusterIndex] -= 1;
+      }
     }
     this.updateThrusterSpray(socketPositions, rearDirection);
     for (let index = 0; index < this.thrusterTrailAges.length; index++) {
@@ -20743,41 +20945,53 @@ class Player {
         this.thrusterTrailPositions[offset + 1] = -100;
         continue;
       }
-      this.thrusterTrailPositions[offset] += this.thrusterTrailVelocities[offset] * delta;
-      this.thrusterTrailPositions[offset + 1] += this.thrusterTrailVelocities[offset + 1] * delta;
-      this.thrusterTrailPositions[offset + 2] += this.thrusterTrailVelocities[offset + 2] * delta;
-      const lateralDamping = Math.exp(-2.8 * delta);
+      const turbulencePhase = this.thrusterTrailTurbulence[offset];
+      const turbulenceFrequency = this.thrusterTrailTurbulence[offset + 1];
+      const turbulenceStrength = this.thrusterTrailTurbulence[offset + 2];
+      const flutter = Math.sin(this.thrusterTrailAges[index] * turbulenceFrequency + turbulencePhase) * turbulenceStrength;
+      const verticalFlutter = Math.cos(this.thrusterTrailAges[index] * turbulenceFrequency * 0.73 + turbulencePhase * 1.41) * turbulenceStrength * 0.48;
+      this.thrusterTrailPositions[offset] += (this.thrusterTrailVelocities[offset] + flutter) * delta;
+      this.thrusterTrailPositions[offset + 1] += (this.thrusterTrailVelocities[offset + 1] + verticalFlutter) * delta;
+      this.thrusterTrailPositions[offset + 2] += (this.thrusterTrailVelocities[offset + 2] + flutter * 0.16) * delta;
+      const lateralDamping = Math.exp(-1.25 * delta);
       this.thrusterTrailVelocities[offset] *= lateralDamping;
-      this.thrusterTrailVelocities[offset + 1] *= Math.exp(-2.2 * delta);
+      this.thrusterTrailVelocities[offset + 1] *= Math.exp(-0.9 * delta);
       const fade = Math.max(0, 1 - this.thrusterTrailAges[index] / this.thrusterTrailLifetimes[index]);
-      this.thrusterTrailColors[offset] = fade;
-      this.thrusterTrailColors[offset + 1] = (this.boosted ? 0.48 : 0.28) * fade;
-      this.thrusterTrailColors[offset + 2] = (this.boosted ? 0.12 : 0.025) * fade;
+      const flicker = 0.74 + Math.sin(this.thrusterTrailAges[index] * turbulenceFrequency * 1.7 + turbulencePhase) * 0.26;
+      this.thrusterTrailColors[offset] = fade * flicker;
+      this.thrusterTrailColors[offset + 1] = (this.boosted ? 0.48 : 0.28) * fade * flicker;
+      this.thrusterTrailColors[offset + 2] = (this.boosted ? 0.12 : 0.025) * fade * flicker;
     }
     this.thrusterTrail.geometry.getAttribute("position").needsUpdate = true;
     this.thrusterTrail.geometry.getAttribute("color").needsUpdate = true;
-    this.thrusterTrailMaterial.size = this.boosted ? 0.235 : 0.105;
+    this.thrusterTrailMaterial.size = this.boosted ? 0.2 : 0.095;
     this.thrusterTrailMaterial.opacity = this.boosted ? 0.96 : 0.78;
   }
   updateThrusterSpray(socketPositions, rearDirection) {
     if (socketPositions.length < 2) return;
     const sideDirection = this.sideDirection.set(rearDirection.z, 0, -rearDirection.x).normalize();
-    const trailLength = this.boosted ? 2.8 : 1.05;
-    const spread = this.boosted ? 0.38 : 0.18;
-    const flowRate = this.boosted ? 3 : 1.35;
+    const trailLength = this.boosted ? 3.35 : 1.3;
+    const spread = this.boosted ? 0.72 : 0.31;
+    const flowRate = this.boosted ? 3.15 : 1.45;
     for (let index = 0; index < THRUSTER_SPRAY_COUNT; index++) {
       const offset = index * 3;
-      const socket = socketPositions[index % 2];
+      const thrusterIndex = index % 2;
+      const socket = socketPositions[thrusterIndex];
       const seed = Math.abs(Math.sin((index + 1) * 12.9898) * 43758.5453) % 1;
-      const phase = (this.elapsedTime * flowRate + seed) % 1;
-      const angle = seed * Math.PI * 2;
-      const coneRadius = (0.025 + phase * spread) * (0.55 + index % 5 * 0.12);
+      const secondarySeed = Math.abs(Math.sin((index + 1) * 78.233) * 12345.6789) % 1;
+      const sideTimeOffset = thrusterIndex === 0 ? 0.08 : 0.53;
+      const sideFlowRate = flowRate * (thrusterIndex === 0 ? 0.91 : 1.08);
+      const phase = (this.elapsedTime * sideFlowRate + seed + sideTimeOffset) % 1;
+      const swirlDirection = thrusterIndex === 0 ? 1 : -1;
+      const angle = seed * Math.PI * 2 + this.elapsedTime * (0.42 + secondarySeed * 0.64) * swirlDirection;
+      const coneRadius = (0.02 + phase * spread) * (0.38 + secondarySeed * 1.18);
       const lateral = Math.cos(angle) * coneRadius;
-      const vertical = Math.sin(angle) * coneRadius * 0.62 + phase * 0.035;
+      const vertical = Math.sin(angle) * coneRadius * (0.48 + secondarySeed * 0.42) + phase * 0.055;
       const laneLag = -this.lateralVelocity * phase * phase * 0.035;
-      this.thrusterSprayPositions[offset] = socket.x + rearDirection.x * phase * trailLength + sideDirection.x * lateral + laneLag;
+      const distanceJitter = 0.9 + (secondarySeed - 0.5) * 0.22;
+      this.thrusterSprayPositions[offset] = socket.x + rearDirection.x * phase * trailLength * distanceJitter + sideDirection.x * lateral + laneLag;
       this.thrusterSprayPositions[offset + 1] = socket.y + vertical;
-      this.thrusterSprayPositions[offset + 2] = socket.z + rearDirection.z * phase * trailLength + sideDirection.z * lateral;
+      this.thrusterSprayPositions[offset + 2] = socket.z + rearDirection.z * phase * trailLength * distanceJitter + sideDirection.z * lateral;
       const fade = Math.sin(Math.PI * phase) * (0.68 + seed * 0.32);
       this.thrusterSprayColors[offset] = fade;
       this.thrusterSprayColors[offset + 1] = (this.boosted ? 0.52 : 0.31) * fade;
@@ -20785,31 +20999,39 @@ class Player {
     }
     this.thrusterSpray.geometry.getAttribute("position").needsUpdate = true;
     this.thrusterSpray.geometry.getAttribute("color").needsUpdate = true;
-    this.thrusterSprayMaterial.size = this.boosted ? 0.2 : 0.075;
+    this.thrusterSprayMaterial.size = this.boosted ? 0.16 : 0.068;
     this.thrusterSprayMaterial.opacity = this.boosted ? 1 : 0.84;
   }
-  spawnThrusterParticle(origin, rearDirection) {
+  spawnThrusterParticle(origin, rearDirection, thrusterIndex) {
     const index = this.trailCursor;
     const offset = index * 3;
-    const jitter = this.boosted ? 0.085 : 0.045;
+    const jitter = this.boosted ? 0.17 : 0.085;
     const sideDirection = this.sideDirection.set(rearDirection.z, 0, -rearDirection.x).normalize();
-    const radialOffset = (Math.random() - 0.5) * jitter;
-    this.thrusterTrailPositions[offset] = origin.x + sideDirection.x * radialOffset;
-    this.thrusterTrailPositions[offset + 1] = origin.y + (Math.random() - 0.5) * jitter;
-    this.thrusterTrailPositions[offset + 2] = origin.z + sideDirection.z * radialOffset;
-    const speed = this.boosted ? 8.5 + Math.random() * 4 : 2 + Math.random() * 1.2;
-    const lateralSpread = (Math.random() - 0.5) * (this.boosted ? 3.3 : 1.5);
+    const radialAngle = Math.random() * Math.PI * 2;
+    const radialOffset = Math.sqrt(Math.random()) * jitter;
+    const lateralOffset = Math.cos(radialAngle) * radialOffset;
+    this.thrusterTrailPositions[offset] = origin.x + sideDirection.x * lateralOffset;
+    this.thrusterTrailPositions[offset + 1] = origin.y + Math.sin(radialAngle) * radialOffset;
+    this.thrusterTrailPositions[offset + 2] = origin.z + sideDirection.z * lateralOffset;
+    const speed = this.boosted ? 7.2 + Math.random() * 6.5 : 1.7 + Math.random() * 2.2;
+    const outwardBias = (thrusterIndex === 0 ? -1 : 1) * (this.boosted ? 0.38 : 0.16);
+    const lateralSpread = (Math.random() - 0.5) * (this.boosted ? 5.4 : 2.5) + outwardBias;
     this.thrusterTrailVelocities[offset] = rearDirection.x * speed + sideDirection.x * lateralSpread;
-    this.thrusterTrailVelocities[offset + 1] = (Math.random() - 0.35) * (this.boosted ? 0.9 : 0.48);
+    this.thrusterTrailVelocities[offset + 1] = (Math.random() - 0.42) * (this.boosted ? 1.65 : 0.78);
     this.thrusterTrailVelocities[offset + 2] = rearDirection.z * speed + sideDirection.z * lateralSpread;
+    this.thrusterTrailTurbulence[offset] = Math.random() * Math.PI * 2;
+    this.thrusterTrailTurbulence[offset + 1] = this.boosted ? 7 + Math.random() * 12 : 5 + Math.random() * 9;
+    this.thrusterTrailTurbulence[offset + 2] = this.boosted ? 0.35 + Math.random() * 1.2 : 0.14 + Math.random() * 0.5;
     this.thrusterTrailColors[offset] = 1;
     this.thrusterTrailColors[offset + 1] = this.boosted ? 0.48 : 0.28;
     this.thrusterTrailColors[offset + 2] = this.boosted ? 0.12 : 0.025;
     this.thrusterTrailAges[index] = 0;
-    this.thrusterTrailLifetimes[index] = this.boosted ? 0.95 + Math.random() * 0.4 : 0.82 + Math.random() * 0.28;
+    this.thrusterTrailLifetimes[index] = this.boosted ? 0.72 + Math.random() * 0.78 : 0.64 + Math.random() * 0.62;
     this.trailCursor = (this.trailCursor + 1) % this.thrusterTrailAges.length;
   }
   resetThrusterTrail() {
+    this.trailEmissionAccumulators[0] = 0.18;
+    this.trailEmissionAccumulators[1] = 0.72;
     this.thrusterTrailAges.fill(-1);
     for (let index = 0; index < this.thrusterTrailPositions.length; index += 3) {
       this.thrusterTrailPositions[index] = 0;
@@ -20846,16 +21068,23 @@ class Player {
   getSteeringLoad() {
     return THREE.MathUtils.clamp(Math.abs(this.lateralVelocity) / 8, 0, 1);
   }
-  jump(boosted = false) {
-    if (this.jumpHeight > 0.05 || this.jumpVelocity > 0) return;
+  jump(boosted = false, entrySpeedRatio = 1) {
+    if (this.jumpHeight > 0.05 || this.jumpVelocity > 0) return false;
     this.jumpHeight = 0.02;
     this.jumpPeakHeight = this.jumpHeight;
     this.boostedJump = boosted;
     this.jumpVelocity = boosted ? 9.1 : 7.2;
+    this.jumpInitialVelocity = this.jumpVelocity;
     this.jumpGravity = boosted ? 7.6 : 8.8;
+    const speedPitch = THREE.MathUtils.clamp((entrySpeedRatio - 0.75) / 0.85, 0, 1);
+    this.jumpLaunchPitch = THREE.MathUtils.lerp(0.2, 0.36, speedPitch);
+    return true;
   }
   isAirborne() {
     return this.jumpHeight > 0.32;
+  }
+  isJumpActive() {
+    return this.jumpHeight > 0 || this.jumpVelocity > 0;
   }
   getJumpHeight() {
     return this.jumpHeight;
@@ -20918,6 +21147,8 @@ class Player {
     this.jumpVelocity = 0;
     this.jumpGravity = 9.4;
     this.jumpPeakHeight = 0;
+    this.jumpInitialVelocity = 0;
+    this.jumpLaunchPitch = 0;
     this.boostedJump = false;
     this.landedFromBoost = false;
     this.landingImpactStrength = 0;
@@ -21623,6 +21854,10 @@ const INITIAL_GAME_SNAPSHOT = {
   score: 0,
   impacts: 0,
   airborneCount: 0,
+  airtime: 0,
+  currentAirtime: 0,
+  currentAirtimeScore: 0,
+  airtimeActive: false,
   wreckedCount: 0,
   distance: 0,
   scoreBreakdown: { ...EMPTY_SCORE_BREAKDOWN },
@@ -21638,6 +21873,8 @@ const INITIAL_GAME_SNAPSHOT = {
   message: "",
   damageFlash: false
 };
+const AIRTIME_SCORE_PER_SECOND = 1500;
+const RAMP_SPEED_MULTIPLIER = 1.5;
 const SPEED_DISTORTION_SHADER = {
   name: "AFTERTRACESpeedDistortion",
   uniforms: {
@@ -21717,6 +21954,9 @@ class Game {
     __publicField(this, "score", 0);
     __publicField(this, "scoreBreakdown", { ...EMPTY_SCORE_BREAKDOWN });
     __publicField(this, "airborneCount", 0);
+    __publicField(this, "airtime", 0);
+    __publicField(this, "currentAirtime", 0);
+    __publicField(this, "currentAirtimeScore", 0);
     __publicField(this, "wreckedCount", 0);
     __publicField(this, "distance", 0);
     __publicField(this, "currentSpeed", 8);
@@ -21739,6 +21979,7 @@ class Game {
     __publicField(this, "clearExitProgress", 0);
     __publicField(this, "clearExitStartSpeed", 55);
     __publicField(this, "boostLaunchTime", 0);
+    __publicField(this, "rampLaunchSpeed", 0);
     __publicField(this, "clearEngineTailTime", 0);
     __publicField(this, "clearEngineTailSpeed", 0);
     __publicField(this, "clearHoldDuration", 1);
@@ -21854,15 +22095,14 @@ class Game {
         const overdriveWarningPulse = this.overdriveTime > 0 && this.overdriveTime < 1.6 ? 0.35 + (0.5 + Math.sin(this.elapsed * 18) * 0.5) * 0.65 : 1;
         this.player.setBoosted(this.overdriveTime > 0, overdriveBlend * overdriveWarningPulse);
         this.updateHeldInput(delta);
+        const jumpWasActive = this.player.isJumpActive();
         this.player.update(delta, this.environment.getRoadHeading(0), this.environment.getRoadElevation(0));
         playerUpdated = true;
+        if (jumpWasActive) this.addAirtimeScore(delta);
         const landing = this.player.consumeLanding();
         if (landing) {
-          const baseBonus = landing.boosted ? 3e3 : 2e3;
-          const awardedBonus = baseBonus * (this.scoreMultiplierTime > 0 ? 2 : 1);
-          this.addScore(baseBonus, "airborne");
-          this.airborneCount++;
-          this.message = `LANDING +${awardedBonus}`;
+          this.rampLaunchSpeed = 0;
+          this.message = `AIRTIME ${this.currentAirtime.toFixed(2)}s +${Math.floor(this.currentAirtimeScore)}`;
           this.messageTime = 1.1;
           this.cameraShakeTime = Math.max(this.cameraShakeTime, 0.035 + landing.strength * 0.025);
           this.audio.playLanding(landing.boosted, landing.strength, landing.secondImpactDelay);
@@ -21872,7 +22112,10 @@ class Game {
         const steeringLoad = this.player.getSteeringLoad();
         const speedLoad = roadCurveLoad * 0.016 + steeringLoad * 0.01;
         const enginePace = Math.sin(this.elapsed * 1.6) * 0.24 + Math.sin(this.elapsed * 0.63 + 1.1) * 0.1;
-        const targetSpeed = baseTargetSpeed * (1 - speedLoad) + enginePace;
+        const targetSpeed = Math.max(
+          baseTargetSpeed * (1 - speedLoad) + enginePace,
+          this.player.isJumpActive() ? this.rampLaunchSpeed : 0
+        );
         const acceleration = this.speedRecoveryTime > 0 ? 0.72 : 2.8;
         this.currentSpeed = THREE.MathUtils.damp(this.currentSpeed, targetSpeed, acceleration, delta);
         if (this.weaponTime > 0) {
@@ -21900,10 +22143,13 @@ class Game {
         this.player.setInvulnerable(false);
         this.player.setBoosted(exitBoosted, accelerating ? 1 : retainedBoostStrength);
         this.player.setClearExit(progress, this.environment.getRoadOffset);
+        const clearJumpWasActive = this.player.isJumpActive();
         this.player.update(delta, this.environment.getRoadHeading(this.player.getZ()), this.environment.getRoadElevation(this.player.getZ()));
         playerUpdated = true;
+        if (clearJumpWasActive) this.addAirtimeScore(delta);
         const clearLanding = this.player.consumeLanding();
         if (clearLanding) {
+          this.rampLaunchSpeed = 0;
           this.cameraShakeTime = Math.max(this.cameraShakeTime, 0.035 + clearLanding.strength * 0.025);
           this.audio.playLanding(clearLanding.boosted, clearLanding.strength, clearLanding.secondImpactDelay);
         }
@@ -22155,10 +22401,16 @@ class Game {
     }
     if (event === "ramp") {
       const boostedJump = this.overdriveTime > 0;
-      this.player.jump(boostedJump);
+      const entrySpeedRatio = this.currentSpeed / Math.max(1, this.stageDefinition.cruiseSpeed);
+      if (!this.player.jump(boostedJump, entrySpeedRatio)) return;
+      this.rampLaunchSpeed = this.currentSpeed * RAMP_SPEED_MULTIPLIER;
+      this.currentSpeed = this.rampLaunchSpeed;
+      this.currentAirtime = 0;
+      this.currentAirtimeScore = 0;
+      this.airborneCount++;
       if (boostedJump) this.boostLaunchTime = 0.44;
       this.audio.playRampLaunch(boostedJump);
-      this.message = boostedJump ? "BOOST LAUNCH" : "AIRBORNE";
+      this.message = boostedJump ? "BOOST LAUNCH" : "AIRTIME";
       this.messageTime = boostedJump ? 1.25 : 0.9;
       return;
     }
@@ -22172,6 +22424,14 @@ class Game {
     this.score += points * multiplier;
     this.scoreBreakdown[category] += points;
     if (multiplier > 1) this.scoreBreakdown.multiplier += points;
+  }
+  addAirtimeScore(delta) {
+    const basePoints = AIRTIME_SCORE_PER_SECOND * delta;
+    const multiplier = this.scoreMultiplierTime > 0 ? 2 : 1;
+    this.addScore(basePoints, "airborne");
+    this.airtime += delta;
+    this.currentAirtime += delta;
+    this.currentAirtimeScore += basePoints * multiplier;
   }
   deductScore(points) {
     const deducted = Math.min(this.score, points);
@@ -22235,6 +22495,7 @@ class Game {
   beginClearExit() {
     if (this.status !== "running") return;
     this.status = "clearing";
+    this.environment.beginFinishRoute();
     this.clearTimer = 0;
     this.clearExitProgress = 0;
     this.clearExitStartSpeed = this.currentSpeed;
@@ -22259,6 +22520,7 @@ class Game {
   }
   startStage(stage, weather) {
     this.applyStage(stage, weather);
+    this.environment.resetRoadRoute();
     Object.assign(this, {
       hp: INITIAL_GAME_SNAPSHOT.hp,
       impacts: 0,
@@ -22266,6 +22528,9 @@ class Game {
       score: 0,
       scoreBreakdown: { ...EMPTY_SCORE_BREAKDOWN },
       airborneCount: 0,
+      airtime: 0,
+      currentAirtime: 0,
+      currentAirtimeScore: 0,
       wreckedCount: 0,
       distance: 0,
       currentSpeed: 8,
@@ -22286,6 +22551,7 @@ class Game {
       clearExitProgress: 0,
       clearExitStartSpeed: 55,
       boostLaunchTime: 0,
+      rampLaunchSpeed: 0,
       clearEngineTailTime: 0,
       clearEngineTailSpeed: 0
     });
@@ -22306,6 +22572,7 @@ class Game {
   }
   enterPreview(stage = 1, weather = "clear") {
     this.applyStage(stage, weather);
+    this.environment.resetRoadRoute();
     Object.assign(this, {
       currentSpeed: 8,
       status: "ready",
@@ -22325,6 +22592,7 @@ class Game {
       clearExitProgress: 0,
       clearExitStartSpeed: 55,
       boostLaunchTime: 0,
+      rampLaunchSpeed: 0,
       clearEngineTailTime: 0,
       clearEngineTailSpeed: 0
     });
@@ -22431,6 +22699,10 @@ class Game {
       score: Math.floor(this.score),
       impacts: this.impacts,
       airborneCount: this.airborneCount,
+      airtime: this.airtime,
+      currentAirtime: this.currentAirtime,
+      currentAirtimeScore: Math.floor(this.currentAirtimeScore),
+      airtimeActive: this.player.isJumpActive(),
       wreckedCount: this.wreckedCount,
       distance: this.distance,
       scoreBreakdown: this.getRoundedScoreBreakdown(),

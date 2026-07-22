@@ -446,6 +446,10 @@
     bottom: 11px;
   }
 
+  .bottom-\[104px\] {
+    bottom: 104px;
+  }
+
   .left-1\/2 {
     left: 50%;
   }
@@ -1156,12 +1160,12 @@
     white-space: nowrap;
   }
 
-  .text-\[\#0a9db1\] {
-    color: #0a9db1;
-  }
-
   .text-\[\#0bbfd5\] {
     color: #0bbfd5;
+  }
+
+  .text-\[\#20cfe1\] {
+    color: #20cfe1;
   }
 
   .text-\[\#24272c\] {
@@ -1178,6 +1182,10 @@
 
   .text-\[\#25282d\] {
     color: #25282d;
+  }
+
+  .text-\[\#25282d\]\/40 {
+    color: oklab(27.5871% -.00164801 -.0100675 / .4);
   }
 
   .text-\[\#25282d\]\/45 {
@@ -1304,6 +1312,10 @@
   }
 
   @media (hover: hover) {
+    .group-hover\:text-\[\#0a9db1\]:is(:where(.group):hover *) {
+      color: #0a9db1;
+    }
+
     .group-hover\:text-\[\#f7f3ec\]\/65:is(:where(.group):hover *) {
       color: oklab(96.5313% .00146142 .0101356 / .65);
     }
