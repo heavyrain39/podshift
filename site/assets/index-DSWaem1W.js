@@ -12901,26 +12901,26 @@ const PATTERNS = [
   }
 ];
 const STAGE_DEFINITIONS = [
-  { stage: 1, duration: 60, cruiseSpeed: 52, overdriveSpeed: 74, rowCadence: 1.68, patternGap: 1.55, pickupBudget: 8, threeStarScore: 2e4, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["single-check", "open-gate"] },
-  { stage: 2, duration: 60, cruiseSpeed: 53, overdriveSpeed: 75, rowCadence: 1.66, patternGap: 1.5, pickupBudget: 8, threeStarScore: 21500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["single-check", "open-gate", "soft-slalom"] },
-  { stage: 3, duration: 60, cruiseSpeed: 54, overdriveSpeed: 76, rowCadence: 1.64, patternGap: 1.45, pickupBudget: 9, threeStarScore: 23500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["open-gate", "soft-slalom", "reward-detour"] },
-  { stage: 4, duration: 60, cruiseSpeed: 55, overdriveSpeed: 77, rowCadence: 1.62, patternGap: 1.4, pickupBudget: 9, threeStarScore: 25500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["soft-slalom", "reward-detour", "switchback"] },
-  { stage: 5, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.6, patternGap: 1.35, pickupBudget: 10, threeStarScore: 28e3, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["reward-detour", "switchback", "weapon-line"] },
-  { stage: 6, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 29e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
-  { stage: 7, duration: 60, cruiseSpeed: 59, overdriveSpeed: 82, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 32e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
-  { stage: 8, duration: 60, cruiseSpeed: 61, overdriveSpeed: 85, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 35e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["switchback", "risk-reward", "long-weave"] },
-  { stage: 9, duration: 60, cruiseSpeed: 63, overdriveSpeed: 88, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 38500, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
-  { stage: 10, duration: 60, cruiseSpeed: 65, overdriveSpeed: 90, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 42e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] },
-  { stage: 11, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 29e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
-  { stage: 12, duration: 60, cruiseSpeed: 59, overdriveSpeed: 82, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 32e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
-  { stage: 13, duration: 60, cruiseSpeed: 61, overdriveSpeed: 85, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 35e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "risk-reward", "long-weave"] },
-  { stage: 14, duration: 60, cruiseSpeed: 63, overdriveSpeed: 88, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 38500, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
-  { stage: 15, duration: 60, cruiseSpeed: 65, overdriveSpeed: 90, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 42e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] },
-  { stage: 16, duration: 60, cruiseSpeed: 57, overdriveSpeed: 80, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 29e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
-  { stage: 17, duration: 60, cruiseSpeed: 59, overdriveSpeed: 82, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 32e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
-  { stage: 18, duration: 60, cruiseSpeed: 61, overdriveSpeed: 85, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 35e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "risk-reward", "long-weave"] },
-  { stage: 19, duration: 60, cruiseSpeed: 63, overdriveSpeed: 88, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 38500, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
-  { stage: 20, duration: 60, cruiseSpeed: 65, overdriveSpeed: 90, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 42e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] }
+  { stage: 1, duration: 60, cruiseSpeed: 58, overdriveSpeed: 84, rowCadence: 1.68, patternGap: 1.55, pickupBudget: 8, threeStarScore: 2e4, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["single-check", "open-gate"] },
+  { stage: 2, duration: 60, cruiseSpeed: 59, overdriveSpeed: 85, rowCadence: 1.66, patternGap: 1.5, pickupBudget: 8, threeStarScore: 21500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["single-check", "open-gate", "soft-slalom"] },
+  { stage: 3, duration: 60, cruiseSpeed: 60, overdriveSpeed: 86, rowCadence: 1.64, patternGap: 1.45, pickupBudget: 9, threeStarScore: 23500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["open-gate", "soft-slalom", "reward-detour"] },
+  { stage: 4, duration: 60, cruiseSpeed: 61, overdriveSpeed: 88, rowCadence: 1.62, patternGap: 1.4, pickupBudget: 9, threeStarScore: 25500, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["soft-slalom", "reward-detour", "switchback"] },
+  { stage: 5, duration: 60, cruiseSpeed: 63, overdriveSpeed: 90, rowCadence: 1.6, patternGap: 1.35, pickupBudget: 10, threeStarScore: 28e3, biome: "city", theme: "day", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["reward-detour", "switchback", "weapon-line"] },
+  { stage: 6, duration: 60, cruiseSpeed: 63, overdriveSpeed: 90, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 29e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
+  { stage: 7, duration: 60, cruiseSpeed: 65, overdriveSpeed: 93, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 32e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
+  { stage: 8, duration: 60, cruiseSpeed: 67, overdriveSpeed: 96, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 35e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["switchback", "risk-reward", "long-weave"] },
+  { stage: 9, duration: 60, cruiseSpeed: 69, overdriveSpeed: 99, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 38500, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
+  { stage: 10, duration: 60, cruiseSpeed: 71, overdriveSpeed: 102, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 42e3, biome: "city", theme: "night", allowedWeather: ["clear", "overcast", "rain", "snow"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] },
+  { stage: 11, duration: 60, cruiseSpeed: 63, overdriveSpeed: 90, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 29e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
+  { stage: 12, duration: 60, cruiseSpeed: 65, overdriveSpeed: 93, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 32e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
+  { stage: 13, duration: 60, cruiseSpeed: 67, overdriveSpeed: 96, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 35e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "risk-reward", "long-weave"] },
+  { stage: 14, duration: 60, cruiseSpeed: 69, overdriveSpeed: 99, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 38500, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
+  { stage: 15, duration: 60, cruiseSpeed: 71, overdriveSpeed: 102, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 42e3, biome: "factory", theme: "sunset", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] },
+  { stage: 16, duration: 60, cruiseSpeed: 63, overdriveSpeed: 90, rowCadence: 1.62, patternGap: 1.45, pickupBudget: 9, threeStarScore: 29e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["open-gate", "soft-slalom", "weapon-line"] },
+  { stage: 17, duration: 60, cruiseSpeed: 65, overdriveSpeed: 93, rowCadence: 1.56, patternGap: 1.3, pickupBudget: 10, threeStarScore: 32e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["reward-detour", "switchback", "resource-chain"] },
+  { stage: 18, duration: 60, cruiseSpeed: 67, overdriveSpeed: 96, rowCadence: 1.52, patternGap: 1.25, pickupBudget: 10, threeStarScore: 35e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "risk-reward", "long-weave"] },
+  { stage: 19, duration: 60, cruiseSpeed: 69, overdriveSpeed: 99, rowCadence: 1.48, patternGap: 1.2, pickupBudget: 11, threeStarScore: 38500, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["weapon-line", "risk-reward", "long-weave", "resource-chain"] },
+  { stage: 20, duration: 60, cruiseSpeed: 71, overdriveSpeed: 102, rowCadence: 1.44, patternGap: 1.15, pickupBudget: 12, threeStarScore: 42e3, biome: "factory", theme: "night", allowedWeather: ["clear", "overcast", "rain"], patternIds: ["switchback", "long-weave", "resource-chain", "finale-run"] }
 ];
 const STAGE_BACKGROUNDS = [
   { name: "DAY CITY", startStage: 1, endStage: 5 },
@@ -13244,6 +13244,22 @@ function StageRoute({ profile, clearedStage, earnedStars = 0, onSelect, onMenu }
     ] })
   ] });
 }
+const RESULT_STAR_REVEAL_DELAY_MS = 220;
+const RESULT_STAR_INTERVAL_MS = 280;
+const RESULT_STAR_ANIMATION_DURATION_MS = 280;
+const RESULT_STAR_IMPACT_OFFSET_MS = 160;
+const RESULT_RECORD_GAP_MS = 260;
+const RESULT_RECORD_WITHOUT_STARS_DELAY_MS = 720;
+function getResultStarRevealDelayMs(index) {
+  return RESULT_STAR_REVEAL_DELAY_MS + Math.max(0, index) * RESULT_STAR_INTERVAL_MS;
+}
+function getResultStarImpactDelayMs(index) {
+  return getResultStarRevealDelayMs(index) + RESULT_STAR_IMPACT_OFFSET_MS;
+}
+function getResultRecordStampDelayMs(newStarCount) {
+  if (newStarCount <= 0) return RESULT_RECORD_WITHOUT_STARS_DELAY_MS;
+  return getResultStarRevealDelayMs(newStarCount - 1) + RESULT_STAR_ANIMATION_DURATION_MS + RESULT_RECORD_GAP_MS;
+}
 const CLEAR_MESSAGES = {
   1: ["YOU DID IT!", "GOOD RUN!"],
   2: ["NICELY DONE!", "GREAT RUN!", "WELL PLAYED!"],
@@ -13267,6 +13283,9 @@ function ResultPanel({ snapshot, previousBestStars, previousBestScore, onExit, o
   const [clearMessage] = reactExports.useState(() => getRandomClearMessage(snapshot.earnedStars));
   const skippedRef = reactExports.useRef(false);
   const isNewRecord = isCleared && snapshot.score > previousBestScore;
+  const newStarCount = Math.max(0, snapshot.earnedStars - previousBestStars);
+  const recordStampDelay = getResultRecordStampDelayMs(newStarCount);
+  const resultStyle = isNewRecord ? { "--record-stamp-delay": `${recordStampDelay}ms` } : void 0;
   reactExports.useEffect(() => {
     if (!isCleared || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const startedAt = performance.now();
@@ -13327,7 +13346,8 @@ function ResultPanel({ snapshot, previousBestStars, previousBestScore, onExit, o
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(
     "section",
     {
-      className: `result-panel result-panel--victory clear-result-panel pointer-events-auto absolute inset-x-4 top-1/2 z-20 border-2 border-[#24272c] bg-[#fdfaf6]/97 text-[#24272c] shadow-[7px_7px_0_#24272c] ${skipped ? "result-panel--skipped" : ""}`,
+      className: `result-panel result-panel--victory clear-result-panel pointer-events-auto absolute inset-x-4 top-1/2 z-20 border-2 border-[#24272c] bg-[#fdfaf6]/97 text-[#24272c] shadow-[7px_7px_0_#24272c] ${isNewRecord ? "result-panel--record-impact" : ""} ${skipped ? "result-panel--skipped" : ""}`,
+      style: resultStyle,
       onPointerDown: completeReveal,
       "aria-label": `Stage ${snapshot.stage} result, ${snapshot.earnedStars} stars, score ${snapshot.score}`,
       children: [
@@ -13351,7 +13371,7 @@ function ResultPanel({ snapshot, previousBestStars, previousBestScore, onExit, o
                     strokeWidth: 1.15,
                     strokeLinecap: "square",
                     strokeLinejoin: "miter",
-                    style: { animationDelay: `${Math.max(0, index - previousBestStars) * 280 + 220}ms` },
+                    style: { animationDelay: `${getResultStarRevealDelayMs(index - previousBestStars)}ms` },
                     "aria-hidden": "true"
                   }
                 )
@@ -14958,6 +14978,7 @@ class FactoryEnvironmentKit {
     }
   }
   createTank(group, side, lateral, z, radius, height, breached) {
+    this.addCylinder(group, radius * 0.88, 0.18, this.concrete, side * lateral, 0.06, z, "y", 16);
     const tank = this.addCylinder(group, radius, height, breached ? this.rust : this.shell, side * lateral, height / 2 + 0.08, z, "y", 16);
     if (breached) tank.rotation.z = side * 0.08;
     this.addCylinder(group, radius * 0.75, 0.32, this.roof, side * lateral, height + 0.23, z, "y", 16);
@@ -14977,6 +14998,14 @@ class FactoryEnvironmentKit {
   createPumpSkid(group, side, lateral, z) {
     const skid = new THREE.Group();
     skid.name = "factory_pump_skid";
+    this.addInstancedBoxes(skid, [-0.8, 0.8].flatMap((xOffset) => [-0.55, 0.55].map((zOffset) => ({
+      x: side * (lateral + xOffset),
+      y: 0.03,
+      z: z + zOffset,
+      sx: 0.18,
+      sy: 0.12,
+      sz: 0.18
+    }))), this.darkSteel);
     this.addBox(skid, 2.2, 0.22, 1.6, this.darkSteel, side * lateral, 0.18, z);
     this.addCylinder(skid, 0.45, 1.15, this.steel, side * lateral, 0.74, z, "x", 12);
     this.addCylinder(skid, 0.52, 0.18, this.fadedYellow, side * (lateral - 0.58), 0.74, z, "x", 12);
@@ -15032,7 +15061,12 @@ class FactoryEnvironmentKit {
     const fence = new THREE.Group();
     fence.name = name;
     const posts = [];
-    for (let z = -halfLength; z <= halfLength + 0.01; z += 1.2) posts.push({ x: side * lateral, y: 0.72, z, sx: 0.12, sy: 1.44, sz: 0.12 });
+    const postCount = Math.max(2, Math.ceil(halfLength * 2 / 1.2) + 1);
+    for (let index = 0; index < postCount; index++) {
+      const progress = index / (postCount - 1);
+      const z = THREE.MathUtils.lerp(-halfLength, halfLength, progress);
+      posts.push({ x: side * lateral, y: 0.72, z, sx: 0.12, sy: 1.44, sz: 0.12 });
+    }
     this.addInstancedBoxes(fence, posts, this.darkSteel);
     for (const y of [0.38, 1.08]) this.addBox(fence, 0.08, 0.1, halfLength * 2, this.steel, side * lateral, y, 0);
     fence.userData.destructible = true;
@@ -15152,17 +15186,24 @@ const SNOW_PARTICLE_COUNT = 220;
 const RAIN_RIPPLE_COUNT = 56;
 const STREETLIGHT_COUNT = 16;
 const MAX_ROAD_HEADING = 0.115;
-const ROAD_PATTERN_RECIPES = [
-  { id: "left-bend", length: 72, headingPoints: [[0, 0], [0.58, 0.07], [1, 0.07]] },
-  { id: "right-bend", length: 72, headingPoints: [[0, 0], [0.58, -0.07], [1, -0.07]] },
-  { id: "left-sweep", length: 92, headingPoints: [[0, 0], [0.72, 0.085], [1, 0.085]] },
-  { id: "right-sweep", length: 92, headingPoints: [[0, 0], [0.72, -0.085], [1, -0.085]] },
-  { id: "left-then-ease", length: 118, headingPoints: [[0, 0], [0.33, 0.065], [0.62, 0.065], [0.86, 0.025], [1, 0.025]] },
-  { id: "right-then-ease", length: 118, headingPoints: [[0, 0], [0.33, -0.065], [0.62, -0.065], [0.86, -0.025], [1, -0.025]] },
-  { id: "left-double-bend", length: 112, headingPoints: [[0, 0], [0.28, 0.035], [0.48, 0.035], [0.78, 0.07], [1, 0.07]] },
-  { id: "right-double-bend", length: 112, headingPoints: [[0, 0], [0.28, -0.035], [0.48, -0.035], [0.78, -0.07], [1, -0.07]] },
-  { id: "hold-heading", length: 62, headingPoints: [[0, 0], [1, 0]] }
+const FORWARD_VISIBILITY_SCALE = 1.14;
+const FINISH_S_LENGTH = 176;
+const FINISH_S_EXIT_PROGRESS = 0.68;
+const ROAD_PATTERN_TEMPLATES = [
+  { id: "straight-charge", length: 64, mirrorable: false, headingPoints: [[0, 0], [1, 0]] },
+  { id: "committed-turn", length: 96, headingPoints: [[0, 0], [0.14, 0], [0.72, 0.1], [1, 0.1]] },
+  { id: "early-apex", length: 120, headingPoints: [[0, 0], [0.05, 0], [0.48, 0.1], [0.68, 0.1], [0.92, 0.05], [1, 0.05]] },
+  { id: "late-apex", length: 118, headingPoints: [[0, 0], [0.24, 0], [0.76, 0.105], [1, 0.105]] },
+  { id: "two-step", length: 140, headingPoints: [[0, 0], [0.1, 0], [0.36, 0.045], [0.48, 0.045], [0.8, 0.105], [1, 0.105]] },
+  { id: "bend-release", length: 144, headingPoints: [[0, 0], [0.06, 0], [0.42, 0.095], [0.6, 0.095], [0.9, 0.035], [1, 0.035]] },
+  { id: "counter-kink", length: 168, headingPoints: [[0, 0], [0.04, 0], [0.36, 0.075], [0.49, 0.075], [0.94, -0.04], [1, -0.04]] },
+  { id: "chicane-exit", length: 190, headingPoints: [[0, 0], [0.04, 0], [0.32, -0.06], [0.44, -0.06], [0.87, 0.07], [1, 0.025]] }
 ];
+const createRoadPatternRecipe = (template, direction) => ({
+  id: template.id,
+  length: template.length,
+  headingPoints: template.headingPoints.map(([distance, headingDelta]) => [distance, headingDelta * direction])
+});
 const easeRoadPoint = (value) => value * value * (3 - 2 * value);
 const CITY_LAYOUTS = [
   [[0, 0], [3, 3], [1, 2], [11, 11], [5, 4], [3, 3], [2, 1], [0, 0], [9, 10], [3, 3], [6, 8], [11, 11]],
@@ -15199,6 +15240,7 @@ class Environment {
     __publicField(this, "streetLights", []);
     __publicField(this, "streetLightPools", []);
     __publicField(this, "streetLightPoolTexture", this.createStreetLightPoolTexture());
+    __publicField(this, "starTexture", this.createStarTexture());
     __publicField(this, "distance", 0);
     __publicField(this, "weatherElapsed", 0);
     __publicField(this, "roadPatternSegments", []);
@@ -15283,7 +15325,7 @@ class Environment {
     });
     this.scene = scene;
     this.resetRoadRoute();
-    scene.fog = new THREE.Fog(15855336, 24, 92);
+    scene.fog = new THREE.Fog(15855336, 24, 105);
     for (let index = 0; index < this.segmentCount; index++) {
       const segment = this.createRoadSegment(index % 2 === 0);
       segment.position.z = this.rearRoadExtent - index * this.segmentLength;
@@ -15309,16 +15351,28 @@ class Environment {
     this.roadPatternHeading = 0;
     this.ensureRoadPatternCoverage(this.distance + 240);
   }
-  beginFinishRoute() {
+  prepareFinishRoute(distanceAhead) {
     if (this.finishRoute) return;
+    const start = this.distance + Math.max(0, distanceAhead);
     const halfStep = 0.5;
-    const center = this.getProceduralRoadCenter(this.distance);
-    const slope = (this.getProceduralRoadCenter(this.distance + halfStep) - this.getProceduralRoadCenter(this.distance - halfStep)) / (halfStep * 2);
+    const center = this.getProceduralRoadCenter(start);
+    const slope = (this.getProceduralRoadCenter(start + halfStep) - this.getProceduralRoadCenter(start - halfStep)) / (halfStep * 2);
     this.finishRoute = {
-      start: this.distance,
+      start,
       center,
-      slope: THREE.MathUtils.clamp(slope, -0.12, 0.12)
+      slope: THREE.MathUtils.clamp(slope, -0.12, 0.12),
+      sStart: null
     };
+  }
+  beginFinishRoute(exitTravelDistance) {
+    if (!this.finishRoute) {
+      this.prepareFinishRoute(0);
+    }
+    if (!this.finishRoute) return;
+    this.finishRoute.sStart = this.distance + this.getFinishStraightLength(exitTravelDistance);
+  }
+  getFinishStraightLength(exitTravelDistance) {
+    return Math.max(72, exitTravelDistance - FINISH_S_LENGTH * FINISH_S_EXIT_PROGRESS);
   }
   patternFitsHeading(recipe, startHeading) {
     return recipe.headingPoints.every(([, delta]) => Math.abs(startHeading + delta) <= MAX_ROAD_HEADING);
@@ -15326,7 +15380,7 @@ class Environment {
   takeRoadPattern(startHeading) {
     var _a;
     if (this.roadPatternBag.length === 0) {
-      this.roadPatternBag = [...ROAD_PATTERN_RECIPES];
+      this.roadPatternBag = [...ROAD_PATTERN_TEMPLATES];
       for (let index = this.roadPatternBag.length - 1; index > 0; index--) {
         const swapIndex = Math.floor(Math.random() * (index + 1));
         [this.roadPatternBag[index], this.roadPatternBag[swapIndex]] = [this.roadPatternBag[swapIndex], this.roadPatternBag[index]];
@@ -15337,14 +15391,16 @@ class Environment {
       }
     }
     for (let index = this.roadPatternBag.length - 1; index >= 0; index--) {
-      const recipe = this.roadPatternBag[index];
-      if (!this.patternFitsHeading(recipe, startHeading)) continue;
+      const template = this.roadPatternBag[index];
+      const directions = template.mirrorable === false ? [1] : Math.random() < 0.5 ? [1, -1] : [-1, 1];
+      const recipe = directions.map((direction) => createRoadPatternRecipe(template, direction)).find((candidate) => this.patternFitsHeading(candidate, startHeading));
+      if (!recipe) continue;
       this.roadPatternBag.splice(index, 1);
       this.lastRoadPatternId = recipe.id;
       return recipe;
     }
-    const fallbackId = startHeading > 0 ? "right-bend" : "left-bend";
-    const fallback = ROAD_PATTERN_RECIPES.find(({ id }) => id === fallbackId) ?? ROAD_PATTERN_RECIPES[8];
+    const fallbackTemplate = ROAD_PATTERN_TEMPLATES.find(({ id }) => id === "committed-turn") ?? ROAD_PATTERN_TEMPLATES[0];
+    const fallback = createRoadPatternRecipe(fallbackTemplate, startHeading > 0 ? -1 : 1);
     const bagIndex = this.roadPatternBag.findIndex(({ id }) => id === fallback.id);
     if (bagIndex >= 0) this.roadPatternBag.splice(bagIndex, 1);
     this.lastRoadPatternId = fallback.id;
@@ -15366,10 +15422,11 @@ class Environment {
   ensureRoadPatternCoverage(sample) {
     while (this.roadPatternEnd < sample) {
       const recipe = this.takeRoadPattern(this.roadPatternHeading);
-      const length = recipe.length * (0.92 + Math.random() * 0.16);
+      const length = recipe.length;
       const sampleCount = Math.ceil(length);
       const sampleStep = length / sampleCount;
       const centerSamples = [this.roadPatternCenter];
+      const headingSamples = [this.roadPatternHeading];
       let center = this.roadPatternCenter;
       for (let index = 1; index <= sampleCount; index++) {
         const previousProgress = (index - 1) / sampleCount;
@@ -15378,12 +15435,14 @@ class Environment {
         const heading = this.getPatternHeading(recipe, this.roadPatternHeading, progress);
         center += (Math.tan(previousHeading) + Math.tan(heading)) * 0.5 * sampleStep;
         centerSamples.push(center);
+        headingSamples.push(heading);
       }
       const endHeading = this.getPatternHeading(recipe, this.roadPatternHeading, 1);
       const segment = {
         start: this.roadPatternEnd,
         end: this.roadPatternEnd + length,
         centerSamples,
+        headingSamples,
         sampleStep
       };
       this.roadPatternSegments.push(segment);
@@ -15403,7 +15462,17 @@ class Environment {
       0,
       1
     );
-    return THREE.MathUtils.lerp(segment.centerSamples[index], segment.centerSamples[index + 1], progress);
+    const startCenter = segment.centerSamples[index];
+    const endCenter = segment.centerSamples[index + 1];
+    const startTangent = Math.tan(segment.headingSamples[index]) * segment.sampleStep;
+    const endTangent = Math.tan(segment.headingSamples[index + 1]) * segment.sampleStep;
+    const progressSquared = progress * progress;
+    const progressCubed = progressSquared * progress;
+    const startBasis = 2 * progressCubed - 3 * progressSquared + 1;
+    const startTangentBasis = progressCubed - 2 * progressSquared + progress;
+    const endBasis = -2 * progressCubed + 3 * progressSquared;
+    const endTangentBasis = progressCubed - progressSquared;
+    return startBasis * startCenter + startTangentBasis * startTangent + endBasis * endCenter + endTangentBasis * endTangent;
   }
   getProceduralRoadCenter(sample) {
     var _a;
@@ -15412,17 +15481,15 @@ class Environment {
     if (segment) return this.sampleRoadPattern(segment, sample);
     return ((_a = this.roadPatternSegments[0]) == null ? void 0 : _a.centerSamples[0]) ?? 0;
   }
-  getFinishRoadOffset(distance) {
-    const straightLength = 24;
-    const sLength = 176;
-    if (distance <= straightLength || distance >= straightLength + sLength) return 0;
-    const progress = (distance - straightLength) / sLength;
+  getFinishRoadOffset(sample, sStart) {
+    if (sStart === null || sample <= sStart || sample >= sStart + FINISH_S_LENGTH) return 0;
+    const progress = (sample - sStart) / FINISH_S_LENGTH;
     return Math.pow(Math.sin(progress * Math.PI * 2), 3) * 2.8;
   }
   getRoadCenter(sample) {
     if (this.finishRoute && sample >= this.finishRoute.start) {
       const distance = sample - this.finishRoute.start;
-      return this.finishRoute.center + this.finishRoute.slope * distance + this.getFinishRoadOffset(distance);
+      return this.finishRoute.center + this.finishRoute.slope * distance + this.getFinishRoadOffset(sample, this.finishRoute.sStart);
     }
     return this.getProceduralRoadCenter(sample);
   }
@@ -15832,13 +15899,52 @@ class Environment {
   createStars() {
     const geometry = new THREE.BufferGeometry();
     const positions = new Float32Array(110 * 3);
+    const colors = new Float32Array(110 * 3);
     for (let index = 0; index < positions.length; index += 3) {
-      positions[index] = (Math.random() - 0.5) * 100;
-      positions[index + 1] = 7 + Math.random() * 32;
-      positions[index + 2] = -15 - Math.random() * 90;
+      const radius = 105 + Math.random() * 28;
+      const azimuth = (Math.random() - 0.5) * 1.35;
+      const elevation = 0.08 + Math.random() * 0.34;
+      const horizontalRadius = Math.cos(elevation) * radius;
+      const brightness = 0.58 + Math.random() * 0.42;
+      positions[index] = Math.sin(azimuth) * horizontalRadius;
+      positions[index + 1] = Math.sin(elevation) * radius;
+      positions[index + 2] = -Math.cos(azimuth) * horizontalRadius;
+      colors[index] = brightness * 0.82;
+      colors[index + 1] = brightness * 0.94;
+      colors[index + 2] = brightness;
     }
     geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
-    return new THREE.Points(geometry, new THREE.PointsMaterial({ color: 9409173, size: 0.16 }));
+    geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
+    return new THREE.Points(geometry, new THREE.PointsMaterial({
+      color: 16777215,
+      size: 0.72,
+      map: this.starTexture,
+      vertexColors: true,
+      transparent: true,
+      opacity: 0.82,
+      alphaTest: 0.04,
+      depthWrite: false,
+      fog: false,
+      blending: THREE.AdditiveBlending
+    }));
+  }
+  createStarTexture() {
+    const canvas = document.createElement("canvas");
+    canvas.width = 32;
+    canvas.height = 32;
+    const context = canvas.getContext("2d");
+    if (context) {
+      const gradient = context.createRadialGradient(16, 16, 0, 16, 16, 15);
+      gradient.addColorStop(0, "rgba(255, 255, 255, 1)");
+      gradient.addColorStop(0.18, "rgba(225, 247, 255, 0.95)");
+      gradient.addColorStop(0.52, "rgba(170, 220, 235, 0.34)");
+      gradient.addColorStop(1, "rgba(130, 190, 210, 0)");
+      context.fillStyle = gradient;
+      context.fillRect(0, 0, 32, 32);
+    }
+    const texture = new THREE.CanvasTexture(canvas);
+    texture.colorSpace = THREE.SRGBColorSpace;
+    return texture;
   }
   createRain() {
     for (let index = 0; index < RAIN_STREAK_COUNT; index++) this.resetRainStreak(index, false);
@@ -16024,8 +16130,8 @@ class Environment {
       pool.material.opacity = night ? factory ? 0.15 : 0.18 : factory ? 0.08 : 0;
     }
     const starsMaterial = this.stars.material;
-    starsMaterial.color.setHex(night ? 13233649 : 9409173);
-    starsMaterial.size = night ? 0.2 : 0.16;
+    starsMaterial.color.setHex(night ? 16777215 : 9409173);
+    starsMaterial.size = night ? 0.72 : 0.58;
     this.rainRippleOpacity = night ? 0.82 : 0.78;
     this.setWeather(this.currentWeather);
   }
@@ -16055,7 +16161,11 @@ class Environment {
     };
     const profile = profiles[weather];
     this.scene.background = new THREE.Color(profile.background);
-    this.scene.fog = new THREE.Fog(profile.background, profile.fogNear, profile.fogFar);
+    this.scene.fog = new THREE.Fog(
+      profile.background,
+      profile.fogNear,
+      profile.fogFar * FORWARD_VISIBILITY_SCALE
+    );
     this.rain.visible = weather === "rain";
     this.snow.visible = weather === "snow";
     this.stars.visible = this.theme === "night" && weather === "clear";
@@ -16100,8 +16210,10 @@ class Environment {
       if (rotor) rotor.rotation.z += delta * (boosted ? 8 : 3.2);
     }
     this.updateStreetlightIllumination();
-    this.stars.position.z += speed * delta * (boosted ? 0.22 : 0.08);
-    if (this.stars.position.z > 34) this.stars.position.z = 0;
+    if (this.stars.visible) {
+      const starsMaterial = this.stars.material;
+      starsMaterial.opacity = 0.78 + Math.sin(this.weatherElapsed * 0.72) * 0.035 + Math.sin(this.weatherElapsed * 1.13 + 0.8) * 0.025;
+    }
     if (this.rain.visible) {
       for (let index = 0; index < RAIN_STREAK_COUNT; index++) {
         const offset = index * 6;
@@ -16193,6 +16305,9 @@ class Environment {
       this.streetLights[index].intensity = active ? factory ? this.theme === "night" ? 36 : 18 : 42 : 0;
     }
   }
+  anchorSky(position) {
+    this.stars.position.copy(position);
+  }
   disposeObject(object) {
     object.traverse((child) => {
       if (!(child instanceof THREE.Mesh) && !(child instanceof THREE.LineSegments) && !(child instanceof THREE.Points)) return;
@@ -16204,6 +16319,8 @@ class Environment {
     for (const segment of this.roadSegments) this.disposeObject(segment);
     this.clearRoadsideField();
     this.disposeObject(this.stars);
+    this.stars.material.dispose();
+    this.starTexture.dispose();
     this.rain.material.dispose();
     this.snow.material.dispose();
     this.disposeObject(this.rain);
@@ -16248,7 +16365,7 @@ class ObstacleManager {
     __publicField(this, "springGeometry", null);
     __publicField(this, "scoreTextures", /* @__PURE__ */ new Map());
     __publicField(this, "laneWidth", LANE_WIDTH);
-    __publicField(this, "spawnZ", -70);
+    __publicField(this, "spawnZ", -82);
     __publicField(this, "patternTimer", 0.35);
     __publicField(this, "pendingRows", []);
     __publicField(this, "recentPatternIds", []);
@@ -16338,7 +16455,7 @@ class ObstacleManager {
       entity.spin += delta;
       entity.object.rotation.y = -this.roadHeading(entity.object.position.z);
       entity.spawnFade = Math.min(1, entity.spawnFade + delta * 1.7);
-      const horizonFade = THREE.MathUtils.smoothstep(entity.object.position.z, this.spawnZ, this.spawnZ + 17);
+      const horizonFade = THREE.MathUtils.smoothstep(entity.object.position.z, this.spawnZ, this.spawnZ + 19);
       const appearance = Math.min(entity.spawnFade, horizonFade);
       this.applySpawnFade(entity.object, appearance);
       if (entity.kind !== "obstacle" && entity.kind !== "ramp") {
@@ -17155,9 +17272,16 @@ class ObstacleManager {
     ring.name = "item_ring";
     ring.add(new THREE.Mesh(
       new THREE.TorusGeometry(0.82, 0.025, 6, 32),
-      new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 0.58, blending: THREE.AdditiveBlending })
+      new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 0.72, blending: THREE.AdditiveBlending, depthWrite: false })
     ));
-    const markerMaterial = new THREE.MeshBasicMaterial({ color: 16775922 });
+    const markerMaterial = new THREE.MeshBasicMaterial({
+      color: new THREE.Color().setRGB(2.6, 2.25, 1.8),
+      transparent: true,
+      opacity: 1,
+      blending: THREE.AdditiveBlending,
+      depthWrite: false,
+      toneMapped: false
+    });
     for (let index = 0; index < 3; index++) {
       const pivot = new THREE.Group();
       pivot.rotation.z = index * Math.PI * 2 / 3;
@@ -20440,6 +20564,8 @@ function createTwinRailVehicle() {
 }
 const THRUSTER_PARTICLE_COUNT = 288;
 const THRUSTER_SPRAY_COUNT = 128;
+const CLEAR_EXIT_FORWARD_DISTANCE = 105;
+const LANDING_REBOUND_TIME_SCALE = 0.9;
 class Player {
   constructor(scene) {
     __publicField(this, "mesh");
@@ -20492,6 +20618,7 @@ class Player {
     __publicField(this, "jumpVelocity", 0);
     __publicField(this, "jumpGravity", 9.4);
     __publicField(this, "jumpPeakHeight", 0);
+    __publicField(this, "jumpAirTime", 0);
     __publicField(this, "jumpInitialVelocity", 0);
     __publicField(this, "jumpLaunchPitch", 0);
     __publicField(this, "boostedJump", false);
@@ -20793,28 +20920,30 @@ class Player {
     const targetYaw = -roadHeading - this.lateralVelocity * 0.03;
     const railFlex = THREE.MathUtils.clamp(this.lateralVelocity * 0.012, -0.024, 0.024);
     if (this.jumpHeight > 0 || this.jumpVelocity > 0) {
+      this.jumpAirTime += delta;
       this.jumpVelocity -= this.jumpGravity * delta;
       this.jumpHeight += this.jumpVelocity * delta;
       this.jumpPeakHeight = Math.max(this.jumpPeakHeight, this.jumpHeight);
       if (this.jumpHeight <= 0 && this.jumpVelocity < 0) {
         const impactSpeed = Math.abs(this.jumpVelocity);
-        const heightStrength = THREE.MathUtils.clamp((this.jumpPeakHeight - 2.4) / 3.1, 0, 1);
-        const speedStrength = THREE.MathUtils.clamp((impactSpeed - 6) / 3.1, 0, 1);
-        this.landingImpactStrength = THREE.MathUtils.clamp(heightStrength * 0.65 + speedStrength * 0.35, 0, 1);
-        const reboundPeriod = THREE.MathUtils.lerp(0.52, 0.68, this.landingImpactStrength);
-        this.landingReboundAngularFrequency = Math.PI * 2 / reboundPeriod;
-        this.landingReboundDamping = THREE.MathUtils.lerp(1.75, 1.35, this.landingImpactStrength);
-        const suspensionTransfer = THREE.MathUtils.lerp(0.4, 0.46, this.landingImpactStrength);
-        this.landingReboundAmplitude = THREE.MathUtils.clamp(
-          impactSpeed * suspensionTransfer / this.landingReboundAngularFrequency,
-          0.2,
-          0.42
+        const heightStrength = THREE.MathUtils.clamp((this.jumpPeakHeight - 2) / 3.5, 0, 1);
+        const speedStrength = THREE.MathUtils.clamp((impactSpeed - 6) / 3.5, 0, 1);
+        const airtimeStrength = THREE.MathUtils.clamp((this.jumpAirTime - 0.9) / 1.5, 0, 1);
+        this.landingImpactStrength = THREE.MathUtils.clamp(
+          heightStrength * 0.45 + speedStrength * 0.25 + airtimeStrength * 0.3,
+          0,
+          1
         );
+        const reboundPeriod = THREE.MathUtils.lerp(0.52, 0.68, this.landingImpactStrength) * LANDING_REBOUND_TIME_SCALE;
+        this.landingReboundAngularFrequency = Math.PI * 2 / reboundPeriod;
+        this.landingReboundDamping = THREE.MathUtils.lerp(2.7, 2.3, this.landingImpactStrength) / LANDING_REBOUND_TIME_SCALE;
         this.landingReboundDuration = reboundPeriod * 2;
+        this.landingReboundAmplitude = THREE.MathUtils.lerp(0.26, 0.62, this.landingImpactStrength);
         this.landingSecondImpactDelay = reboundPeriod;
         this.jumpHeight = 0;
         this.jumpVelocity = 0;
         this.jumpPeakHeight = 0;
+        this.jumpAirTime = 0;
         this.landedFromBoost = this.boostedJump;
         this.boostedJump = false;
         this.landedThisFrame = true;
@@ -20852,14 +20981,16 @@ class Player {
       this.landingReboundOffset = 0;
     } else {
       const reboundElapsed = reboundProgress * this.landingReboundDuration;
+      const firstCompressionTime = Math.PI * 0.5 / this.landingReboundAngularFrequency;
+      const normalizedAmplitude = this.landingReboundAmplitude * Math.exp(this.landingReboundDamping * firstCompressionTime);
       const dampingEnvelope = Math.exp(-this.landingReboundDamping * reboundElapsed);
-      this.landingReboundOffset = -this.landingReboundAmplitude * dampingEnvelope * Math.sin(this.landingReboundAngularFrequency * reboundElapsed);
+      this.landingReboundOffset = -normalizedAmplitude * dampingEnvelope * Math.sin(this.landingReboundAngularFrequency * reboundElapsed);
     }
     const jumpActive = this.jumpHeight > 0 || this.jumpVelocity > 0;
     const ascentRatio = this.jumpInitialVelocity > 0 ? THREE.MathUtils.clamp(this.jumpVelocity / this.jumpInitialVelocity, 0, 1) : 0;
     const airbornePitch = this.jumpLaunchPitch * THREE.MathUtils.lerp(0.58, 1, ascentRatio);
-    const targetPitch = jumpActive ? airbornePitch : -this.landingReboundOffset * 0.2;
-    this.mesh.rotation.x = THREE.MathUtils.damp(this.mesh.rotation.x, targetPitch, jumpActive ? 7.5 : 9, delta);
+    const targetPitch = jumpActive ? airbornePitch : -this.landingReboundOffset * 0.3;
+    this.mesh.rotation.x = THREE.MathUtils.damp(this.mesh.rotation.x, targetPitch, jumpActive ? 7.5 : 12.5, delta);
     this.vehicleRoot.position.y = Math.sin(this.elapsedTime * 3.4) * 0.018 + this.landingReboundOffset;
     const pulse = 0.82 + Math.sin(this.elapsedTime * (this.boosted ? 15 : 9)) * 0.18;
     for (const material of this.thrusterMaterials) {
@@ -20948,12 +21079,13 @@ class Player {
       const turbulencePhase = this.thrusterTrailTurbulence[offset];
       const turbulenceFrequency = this.thrusterTrailTurbulence[offset + 1];
       const turbulenceStrength = this.thrusterTrailTurbulence[offset + 2];
-      const flutter = Math.sin(this.thrusterTrailAges[index] * turbulenceFrequency + turbulencePhase) * turbulenceStrength;
-      const verticalFlutter = Math.cos(this.thrusterTrailAges[index] * turbulenceFrequency * 0.73 + turbulencePhase * 1.41) * turbulenceStrength * 0.48;
-      this.thrusterTrailPositions[offset] += (this.thrusterTrailVelocities[offset] + flutter) * delta;
-      this.thrusterTrailPositions[offset + 1] += (this.thrusterTrailVelocities[offset + 1] + verticalFlutter) * delta;
-      this.thrusterTrailPositions[offset + 2] += (this.thrusterTrailVelocities[offset + 2] + flutter * 0.16) * delta;
-      const lateralDamping = Math.exp(-1.25 * delta);
+      const swirlAngle = this.thrusterTrailAges[index] * turbulenceFrequency + turbulencePhase;
+      const swirlX = Math.cos(swirlAngle) * turbulenceStrength;
+      const swirlY = Math.sin(swirlAngle) * turbulenceStrength * 0.72;
+      this.thrusterTrailPositions[offset] += (this.thrusterTrailVelocities[offset] + swirlX) * delta;
+      this.thrusterTrailPositions[offset + 1] += (this.thrusterTrailVelocities[offset + 1] + swirlY) * delta;
+      this.thrusterTrailPositions[offset + 2] += this.thrusterTrailVelocities[offset + 2] * delta;
+      const lateralDamping = Math.exp(-1.7 * delta);
       this.thrusterTrailVelocities[offset] *= lateralDamping;
       this.thrusterTrailVelocities[offset + 1] *= Math.exp(-0.9 * delta);
       const fade = Math.max(0, 1 - this.thrusterTrailAges[index] / this.thrusterTrailLifetimes[index]);
@@ -20971,7 +21103,7 @@ class Player {
     if (socketPositions.length < 2) return;
     const sideDirection = this.sideDirection.set(rearDirection.z, 0, -rearDirection.x).normalize();
     const trailLength = this.boosted ? 3.35 : 1.3;
-    const spread = this.boosted ? 0.72 : 0.31;
+    const spread = this.boosted ? 0.38 : 0.18;
     const flowRate = this.boosted ? 3.15 : 1.45;
     for (let index = 0; index < THRUSTER_SPRAY_COUNT; index++) {
       const offset = index * 3;
@@ -20983,10 +21115,11 @@ class Player {
       const sideFlowRate = flowRate * (thrusterIndex === 0 ? 0.91 : 1.08);
       const phase = (this.elapsedTime * sideFlowRate + seed + sideTimeOffset) % 1;
       const swirlDirection = thrusterIndex === 0 ? 1 : -1;
-      const angle = seed * Math.PI * 2 + this.elapsedTime * (0.42 + secondarySeed * 0.64) * swirlDirection;
-      const coneRadius = (0.02 + phase * spread) * (0.38 + secondarySeed * 1.18);
-      const lateral = Math.cos(angle) * coneRadius;
-      const vertical = Math.sin(angle) * coneRadius * (0.48 + secondarySeed * 0.42) + phase * 0.055;
+      const helixTurns = 1.35 + secondarySeed * 0.85;
+      const angle = seed * Math.PI * 2 + (phase * Math.PI * 2 * helixTurns + this.elapsedTime * (1.7 + secondarySeed * 0.9)) * swirlDirection;
+      const cylinderRadius = (0.035 + spread * (0.38 + phase * 0.34)) * (0.72 + secondarySeed * 0.5);
+      const lateral = Math.cos(angle) * cylinderRadius;
+      const vertical = Math.sin(angle) * cylinderRadius * (0.76 + secondarySeed * 0.24) + phase * 0.035;
       const laneLag = -this.lateralVelocity * phase * phase * 0.035;
       const distanceJitter = 0.9 + (secondarySeed - 0.5) * 0.22;
       this.thrusterSprayPositions[offset] = socket.x + rearDirection.x * phase * trailLength * distanceJitter + sideDirection.x * lateral + laneLag;
@@ -21005,7 +21138,7 @@ class Player {
   spawnThrusterParticle(origin, rearDirection, thrusterIndex) {
     const index = this.trailCursor;
     const offset = index * 3;
-    const jitter = this.boosted ? 0.17 : 0.085;
+    const jitter = this.boosted ? 0.12 : 0.065;
     const sideDirection = this.sideDirection.set(rearDirection.z, 0, -rearDirection.x).normalize();
     const radialAngle = Math.random() * Math.PI * 2;
     const radialOffset = Math.sqrt(Math.random()) * jitter;
@@ -21014,14 +21147,14 @@ class Player {
     this.thrusterTrailPositions[offset + 1] = origin.y + Math.sin(radialAngle) * radialOffset;
     this.thrusterTrailPositions[offset + 2] = origin.z + sideDirection.z * lateralOffset;
     const speed = this.boosted ? 7.2 + Math.random() * 6.5 : 1.7 + Math.random() * 2.2;
-    const outwardBias = (thrusterIndex === 0 ? -1 : 1) * (this.boosted ? 0.38 : 0.16);
-    const lateralSpread = (Math.random() - 0.5) * (this.boosted ? 5.4 : 2.5) + outwardBias;
+    const outwardBias = (thrusterIndex === 0 ? -1 : 1) * (this.boosted ? 0.18 : 0.08);
+    const lateralSpread = (Math.random() - 0.5) * (this.boosted ? 3.1 : 1.45) + outwardBias;
     this.thrusterTrailVelocities[offset] = rearDirection.x * speed + sideDirection.x * lateralSpread;
-    this.thrusterTrailVelocities[offset + 1] = (Math.random() - 0.42) * (this.boosted ? 1.65 : 0.78);
+    this.thrusterTrailVelocities[offset + 1] = (Math.random() - 0.48) * (this.boosted ? 1.05 : 0.52);
     this.thrusterTrailVelocities[offset + 2] = rearDirection.z * speed + sideDirection.z * lateralSpread;
     this.thrusterTrailTurbulence[offset] = Math.random() * Math.PI * 2;
-    this.thrusterTrailTurbulence[offset + 1] = this.boosted ? 7 + Math.random() * 12 : 5 + Math.random() * 9;
-    this.thrusterTrailTurbulence[offset + 2] = this.boosted ? 0.35 + Math.random() * 1.2 : 0.14 + Math.random() * 0.5;
+    this.thrusterTrailTurbulence[offset + 1] = this.boosted ? 11 + Math.random() * 10 : 7 + Math.random() * 7;
+    this.thrusterTrailTurbulence[offset + 2] = this.boosted ? 0.28 + Math.random() * 0.55 : 0.12 + Math.random() * 0.28;
     this.thrusterTrailColors[offset] = 1;
     this.thrusterTrailColors[offset + 1] = this.boosted ? 0.48 : 0.28;
     this.thrusterTrailColors[offset + 2] = this.boosted ? 0.12 : 0.025;
@@ -21072,6 +21205,7 @@ class Player {
     if (this.jumpHeight > 0.05 || this.jumpVelocity > 0) return false;
     this.jumpHeight = 0.02;
     this.jumpPeakHeight = this.jumpHeight;
+    this.jumpAirTime = 0;
     this.boostedJump = boosted;
     this.jumpVelocity = boosted ? 9.1 : 7.2;
     this.jumpInitialVelocity = this.jumpVelocity;
@@ -21117,7 +21251,7 @@ class Player {
     this.clearExitProgress = progress;
     const eased = progress * progress * (3 - 2 * progress);
     const fade = THREE.MathUtils.smoothstep(progress, 0.62, 0.96);
-    this.mesh.position.z = -eased * 105;
+    this.mesh.position.z = -eased * CLEAR_EXIT_FORWARD_DISTANCE;
     this.clearRoadOffset = roadOffset(this.mesh.position.z);
     this.mesh.position.x = this.targetX + this.clearRoadOffset;
     this.mesh.scale.setScalar(THREE.MathUtils.lerp(1, 0.08, fade));
@@ -21147,6 +21281,7 @@ class Player {
     this.jumpVelocity = 0;
     this.jumpGravity = 9.4;
     this.jumpPeakHeight = 0;
+    this.jumpAirTime = 0;
     this.jumpInitialVelocity = 0;
     this.jumpLaunchPitch = 0;
     this.boostedJump = false;
@@ -21636,36 +21771,36 @@ class GameAudio {
     thump.type = "triangle";
     thump.frequency.setValueAtTime(THREE.MathUtils.lerp(118, 146, strength) * pitch, now);
     thump.frequency.exponentialRampToValueAtTime(34 * pitch, now + 0.28);
-    gain.gain.setValueAtTime(THREE.MathUtils.lerp(0.34, 0.5, strength) * mixVolume, now);
+    gain.gain.setValueAtTime(THREE.MathUtils.lerp(0.48, 0.7, strength) * mixVolume, now);
     gain.gain.exponentialRampToValueAtTime(1e-3, now + 0.3);
     thump.connect(gain).connect(context.destination);
     const suspension = context.createOscillator();
     const suspensionGain = context.createGain();
     suspension.type = "square";
-    suspension.frequency.setValueAtTime(THREE.MathUtils.lerp(245, 325, strength) * pitch, now);
-    suspension.frequency.exponentialRampToValueAtTime(92 * pitch, now + 0.1);
-    suspensionGain.gain.setValueAtTime(THREE.MathUtils.lerp(0.065, 0.1, strength) * mixVolume, now);
+    suspension.frequency.setValueAtTime(THREE.MathUtils.lerp(420, 560, strength) * pitch, now);
+    suspension.frequency.exponentialRampToValueAtTime(135 * pitch, now + 0.1);
+    suspensionGain.gain.setValueAtTime(THREE.MathUtils.lerp(0.1, 0.16, strength) * mixVolume, now);
     suspensionGain.gain.exponentialRampToValueAtTime(1e-3, now + 0.115);
     suspension.connect(suspensionGain).connect(context.destination);
     thump.start(now);
     suspension.start(now);
     thump.stop(now + 0.31);
     suspension.stop(now + 0.12);
-    const reboundAt = now + Math.max(0.36, secondImpactDelay);
+    const reboundAt = now + Math.max(0.2, secondImpactDelay);
     const rebound = context.createOscillator();
     const reboundGain = context.createGain();
     rebound.type = "triangle";
     rebound.frequency.setValueAtTime(THREE.MathUtils.lerp(92, 122, strength) * pitch, reboundAt);
     rebound.frequency.exponentialRampToValueAtTime(31 * pitch, reboundAt + 0.22);
-    reboundGain.gain.setValueAtTime(THREE.MathUtils.lerp(0.18, 0.3, strength) * mixVolume, reboundAt);
+    reboundGain.gain.setValueAtTime(THREE.MathUtils.lerp(0.3, 0.48, strength) * mixVolume, reboundAt);
     reboundGain.gain.exponentialRampToValueAtTime(1e-3, reboundAt + 0.23);
     rebound.connect(reboundGain).connect(context.destination);
     const reboundClack = context.createOscillator();
     const reboundClackGain = context.createGain();
     reboundClack.type = "square";
-    reboundClack.frequency.setValueAtTime(THREE.MathUtils.lerp(185, 245, strength) * pitch, reboundAt);
-    reboundClack.frequency.exponentialRampToValueAtTime(78 * pitch, reboundAt + 0.085);
-    reboundClackGain.gain.setValueAtTime(THREE.MathUtils.lerp(0.035, 0.065, strength) * mixVolume, reboundAt);
+    reboundClack.frequency.setValueAtTime(THREE.MathUtils.lerp(340, 470, strength) * pitch, reboundAt);
+    reboundClack.frequency.exponentialRampToValueAtTime(118 * pitch, reboundAt + 0.085);
+    reboundClackGain.gain.setValueAtTime(THREE.MathUtils.lerp(0.065, 0.11, strength) * mixVolume, reboundAt);
     reboundClackGain.gain.exponentialRampToValueAtTime(1e-3, reboundAt + 0.095);
     reboundClack.connect(reboundClackGain).connect(context.destination);
     rebound.start(reboundAt);
@@ -21759,14 +21894,14 @@ class GameAudio {
       const samples = this.debrisNoiseBuffer.getChannelData(0);
       for (let index = 0; index < samples.length; index++) samples[index] = Math.random() * 2 - 1;
     }
-    const start = context.currentTime + 0.2 + Math.random() * 0.035;
+    const start = context.currentTime + 0.11 + Math.random() * 0.025;
     const mixVolume = this.volume * this.sfxMixBoost;
-    const grainCount = 8 + Math.floor(Math.random() * 5);
-    const spread = 0.46 + Math.random() * 0.18;
+    const grainCount = 15 + Math.floor(Math.random() * 6);
+    const spread = 0.68 + Math.random() * 0.2;
     for (let index = 0; index < grainCount; index++) {
       const progress = grainCount === 1 ? 0 : index / (grainCount - 1);
       const grainStart = start + Math.pow(progress, 0.88) * spread + Math.random() * 0.028;
-      const grainDuration = 0.018 + Math.random() * 0.04;
+      const grainDuration = 0.024 + Math.random() * 0.052;
       const source = context.createBufferSource();
       const filter = context.createBiquadFilter();
       const gain = context.createGain();
@@ -21777,19 +21912,19 @@ class GameAudio {
       filter.frequency.value = 1150 + Math.random() * 3200;
       filter.Q.value = 1.4 + Math.random() * 3.2;
       panner.pan.value = (Math.random() - 0.5) * 1.4;
-      gain.gain.setValueAtTime((0.035 + Math.random() * 0.035) * mixVolume * (1 - progress * 0.38), grainStart);
+      gain.gain.setValueAtTime((0.07 + Math.random() * 0.065) * mixVolume * (1 - progress * 0.46), grainStart);
       gain.gain.exponentialRampToValueAtTime(1e-3, grainStart + grainDuration);
       source.connect(filter).connect(gain).connect(panner).connect(context.destination);
       source.start(grainStart, Math.random() * 0.06, grainDuration);
       source.stop(grainStart + grainDuration + 0.01);
-      if (index % 3 === 0) {
+      if (index % 2 === 0) {
         const clink = context.createOscillator();
         const clinkGain = context.createGain();
         clink.type = "triangle";
         const clinkPitch = 520 + Math.random() * 1250;
         clink.frequency.setValueAtTime(clinkPitch, grainStart);
         clink.frequency.exponentialRampToValueAtTime(clinkPitch * 0.58, grainStart + 0.045);
-        clinkGain.gain.setValueAtTime((0.016 + Math.random() * 0.018) * mixVolume * (1 - progress * 0.5), grainStart);
+        clinkGain.gain.setValueAtTime((0.03 + Math.random() * 0.035) * mixVolume * (1 - progress * 0.55), grainStart);
         clinkGain.gain.exponentialRampToValueAtTime(1e-3, grainStart + 0.055);
         clink.connect(clinkGain).connect(panner);
         clink.start(grainStart);
@@ -21875,6 +22010,8 @@ const INITIAL_GAME_SNAPSHOT = {
 };
 const AIRTIME_SCORE_PER_SECOND = 1500;
 const RAMP_SPEED_MULTIPLIER = 1.5;
+const FINISH_ROUTE_PREPARE_SECONDS = 4.5;
+const FINISH_ROUTE_PREVIEW_DISTANCE = 132;
 const SPEED_DISTORTION_SHADER = {
   name: "AFTERTRACESpeedDistortion",
   uniforms: {
@@ -21986,9 +22123,9 @@ class Game {
     __publicField(this, "clearExitDuration", 2.2);
     __publicField(this, "clearEngineTailDuration", 1.25);
     __publicField(this, "previewCameraPosition", new THREE.Vector3(0, 15.2, 13.2));
-    __publicField(this, "gameplayCameraPosition", new THREE.Vector3(0, 5.2, 6.2));
+    __publicField(this, "gameplayCameraPosition", new THREE.Vector3(0, 5.4, 6.2));
     __publicField(this, "previewCameraTarget", new THREE.Vector3(0, 0.65, -4.8));
-    __publicField(this, "gameplayCameraTarget", new THREE.Vector3(0, 0, -7.8));
+    __publicField(this, "gameplayCameraTarget", new THREE.Vector3(0, 0, -9.6));
     __publicField(this, "cameraTarget", this.previewCameraTarget.clone());
     __publicField(this, "cameraFollowX", 0);
     __publicField(this, "cameraViewBlend", 0);
@@ -22104,7 +22241,7 @@ class Game {
           this.rampLaunchSpeed = 0;
           this.message = `AIRTIME ${this.currentAirtime.toFixed(2)}s +${Math.floor(this.currentAirtimeScore)}`;
           this.messageTime = 1.1;
-          this.cameraShakeTime = Math.max(this.cameraShakeTime, 0.035 + landing.strength * 0.025);
+          this.cameraShakeTime = Math.max(this.cameraShakeTime, 0.06 + landing.strength * 0.07);
           this.audio.playLanding(landing.boosted, landing.strength, landing.secondImpactDelay);
         }
         const baseTargetSpeed = THREE.MathUtils.lerp(this.stageDefinition.cruiseSpeed, this.stageDefinition.overdriveSpeed, overdriveBlend);
@@ -22130,6 +22267,10 @@ class Game {
         for (const event of this.obstacleManager.update(delta, this.currentSpeed, this.player.getX(), this.overdriveTime > 0, this.hp < this.maxHp, this.scoreMultiplierTime <= 0, this.weaponTime <= 0, previousPlayerX, scoreMultiplier, this.player.isAirborne())) {
           this.handleEvent(event);
         }
+        const finishTimeRemaining = Math.max(0, this.duration - this.elapsed);
+        if (finishTimeRemaining <= FINISH_ROUTE_PREPARE_SECONDS) {
+          this.environment.prepareFinishRoute(FINISH_ROUTE_PREVIEW_DISTANCE);
+        }
         if (this.elapsed >= this.duration) this.beginClearExit();
       } else if (this.status === "clearing") {
         this.clearTimer += delta;
@@ -22150,7 +22291,7 @@ class Game {
         const clearLanding = this.player.consumeLanding();
         if (clearLanding) {
           this.rampLaunchSpeed = 0;
-          this.cameraShakeTime = Math.max(this.cameraShakeTime, 0.035 + clearLanding.strength * 0.025);
+          this.cameraShakeTime = Math.max(this.cameraShakeTime, 0.06 + clearLanding.strength * 0.07);
           this.audio.playLanding(clearLanding.boosted, clearLanding.strength, clearLanding.secondImpactDelay);
         }
         const clearEvents = this.obstacleManager.update(
@@ -22220,6 +22361,7 @@ class Game {
       const engineSpeed = clearEngineTailActive ? this.clearEngineTailSpeed : this.currentSpeed;
       this.audio.updateEngine(engineSpeed, this.overdriveTime > 0 || exitBoost || clearEngineTailActive, engineActive, this.player.getSteeringLoad(), this.clearExitProgress, this.player.getAirborneAmount(), clearEngineTailActive ? clearEngineTailStrength : 1);
       this.updateCamera(delta);
+      this.environment.anchorSky(this.camera.position);
       this.updateSpeedDistortion(rawDelta);
       this.snapshotTimer -= delta;
       if (this.snapshotTimer <= 0) {
@@ -22495,7 +22637,7 @@ class Game {
   beginClearExit() {
     if (this.status !== "running") return;
     this.status = "clearing";
-    this.environment.beginFinishRoute();
+    this.environment.beginFinishRoute(this.getExpectedClearExitDistance(this.currentSpeed));
     this.clearTimer = 0;
     this.clearExitProgress = 0;
     this.clearExitStartSpeed = this.currentSpeed;
@@ -22514,6 +22656,12 @@ class Game {
     this.audio.playClearImpact();
     this.audio.raiseMusicForClear();
     this.publishSnapshot();
+  }
+  getExpectedClearExitDistance(startSpeed) {
+    const exitSpeed = Math.max(175, startSpeed);
+    const holdDistance = startSpeed * this.clearHoldDuration;
+    const accelerationDistance = (startSpeed + exitSpeed) * 0.5 * this.clearExitDuration;
+    return holdDistance + accelerationDistance + CLEAR_EXIT_FORWARD_DISTANCE;
   }
   startFreshRun(weather) {
     this.startStage(1, weather);
@@ -22608,9 +22756,9 @@ class Game {
   }
   playResultStamps(count, newRecord = false) {
     for (let index = 0; index < count; index++) {
-      this.audio.playResultStamp(0.22 + index * 0.28);
+      this.audio.playResultStamp(getResultStarImpactDelayMs(index) / 1e3);
     }
-    if (newRecord) this.audio.playNewRecordStamp();
+    if (newRecord) this.audio.playNewRecordStamp(getResultRecordStampDelayMs(count) / 1e3);
   }
   pause() {
     this.isRunning = false;
@@ -22638,7 +22786,7 @@ class Game {
     const boostLaunchProgress = 1 - this.boostLaunchTime / 0.44;
     const boostLaunchEnvelope = this.boostLaunchTime > 0 ? Math.sin(boostLaunchProgress * Math.PI) : 0;
     const boostAirborne = this.player.isBoostJumpActive() ? this.player.getAirborneAmount() : 0;
-    const baseGameplayFov = clearAccelerating ? 92 : this.overdriveTime > 0 ? 84 : 68;
+    const baseGameplayFov = clearAccelerating ? 92 : this.overdriveTime > 0 ? 86 : 70;
     const gameplayFov = Math.min(94, baseGameplayFov + boostLaunchEnvelope * 8 + boostAirborne * 3);
     const targetFov = THREE.MathUtils.lerp(58, gameplayFov, this.cameraViewBlend);
     const nextFov = THREE.MathUtils.damp(this.camera.fov, targetFov, 4.5, delta);
@@ -22653,7 +22801,7 @@ class Game {
     this.camera.position.y += jumpHeight * (boostAirborne > 0 ? 0.1 : 0.16) * this.cameraViewBlend;
     this.camera.position.y += boostAirborne * 0.62 * this.cameraViewBlend;
     this.camera.position.y -= boostLaunchEnvelope * 0.16 * this.cameraViewBlend;
-    this.camera.position.y -= landingRebound * 0.2 * this.cameraViewBlend;
+    this.camera.position.y -= landingRebound * 0.34 * this.cameraViewBlend;
     this.camera.position.z += boostLaunchEnvelope * 0.9 * this.cameraViewBlend;
     const previewWeight = 1 - this.cameraViewBlend;
     this.camera.position.x += Math.sin(this.previewCameraTime * 0.16) * 5.1 * previewWeight;
@@ -22661,7 +22809,7 @@ class Game {
     this.camera.position.x += this.cameraFollowX;
     this.cameraTarget.copy(this.previewCameraTarget).lerp(this.gameplayCameraTarget, this.cameraViewBlend);
     this.cameraTarget.y += jumpHeight * (boostAirborne > 0 ? 0.08 : 0.32) * this.cameraViewBlend;
-    this.cameraTarget.y += landingRebound * 0.08 * this.cameraViewBlend;
+    this.cameraTarget.y += landingRebound * 0.14 * this.cameraViewBlend;
     this.cameraTarget.z -= boostAirborne * 4.2 * this.cameraViewBlend;
     this.cameraTarget.x = this.cameraFollowX + Math.sin(this.previewCameraTime * 0.16) * 0.65 * previewWeight;
     if (this.cameraShakeTime > 0) {

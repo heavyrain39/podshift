@@ -1879,6 +1879,10 @@ button:not(:disabled):active {
   animation: .62s cubic-bezier(.15, .9, .2, 1.14) both clear-result-slam;
 }
 
+.clear-result-panel.result-panel--record-impact {
+  animation: clear-result-slam .62s cubic-bezier(.15, .9, .2, 1.14) both, result-panel-record-impact .19s linear var(--record-stamp-delay, .72s) 1 normal none;
+}
+
 .clear-impact-flash {
   z-index: 11;
   background: #fffaf2;
@@ -1934,23 +1938,45 @@ button:not(:disabled):active {
 }
 
 @keyframes result-record-stamp {
-  0%, 45% {
+  0% {
     opacity: 0;
     transform: translateY(-18px)rotate(-5deg)scale(1.5);
   }
 
-  46% {
+  1% {
     opacity: 1;
     transform: translateY(0)rotate(-3deg)scale(1.18);
   }
 
-  70% {
+  58% {
     transform: translateY(0)rotate(-3deg)scale(.94);
   }
 
   100% {
     opacity: 1;
     transform: translateY(0)rotate(-3deg)scale(1);
+  }
+}
+
+@keyframes result-panel-record-impact {
+  0% {
+    transform: translate(0, -50%)rotate(0);
+  }
+
+  18% {
+    transform: translate(-5px, calc(2px - 50%))rotate(-.35deg);
+  }
+
+  42% {
+    transform: translate(4px, calc(-50% - 1px))rotate(.25deg);
+  }
+
+  68% {
+    transform: translate(-2px, -50%)rotate(-.12deg);
+  }
+
+  100% {
+    transform: translate(0, -50%)rotate(0);
   }
 }
 
@@ -2082,13 +2108,13 @@ button:not(:disabled):active {
   color: #ff3f78;
   letter-spacing: -.025em;
   opacity: 0;
+  animation: result-record-stamp .28s linear var(--record-stamp-delay, .72s) both;
   background: none;
   border: 3px solid #ff3f78;
   padding: 3px 7px;
   font-size: clamp(14px, 2.5vw, 21px);
   font-style: italic;
   font-weight: 900;
-  animation: .28s linear .72s both result-record-stamp;
   position: absolute;
   bottom: -7px;
   right: 0;
@@ -2169,6 +2195,11 @@ button:not(:disabled):active {
   opacity: 1;
   animation: none;
   transform: rotate(-3deg);
+}
+
+.clear-result-panel.result-panel--record-impact.result-panel--skipped {
+  animation: none;
+  transform: translateY(-50%);
 }
 
 @media (max-width: 560px) {
